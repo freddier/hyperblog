@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>El titulo del post</title>
+        <title>Bienvenido a Hyperblog</title>
         <link rel="stylesheet" href="css/estilos.css" />
     </head>
     <body>
