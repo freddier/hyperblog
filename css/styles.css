@@ -5,3 +5,21 @@ header{
     text-transform: uppercase;
     padding: 1rem 0;
 }
+.hero{
+    display: flex;
+    flex-wrap: wrap
+    
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    flex: 1;
+    display: inherit;
+    flex-wrap: inherit;
+    background: grey;
+}
+.hero p{
+    flex: 0 1 calc(20%);
+    text-align: center;
+    color: black;
+}
