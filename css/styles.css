@@ -5,3 +5,20 @@ header{
     text-transform: uppercase;
     padding: 1rem 0;
 }
+footer{
+    background: black;
+    
+}
+footer nav{
+    display: flex;
+    
+}
+footer nav a{
+    flex: 1;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    text-align: center;
+}
+
+
