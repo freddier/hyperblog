@@ -50,6 +50,9 @@ body
     background: white;
     padding: 1em;
 }
+#post p img{
+    object-fit: cover;
+}
 
 #footer
 {
