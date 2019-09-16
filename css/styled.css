@@ -38,3 +38,15 @@ body {
   font-size: 0.8em;
 
 }
+
+.footer {
+  background: grey;
+  color: #333;
+  margin: 10px;
+  height: 50px;
+  text-align: center;
+}
+
+.footer p {
+  padding: 15px;
+}
