@@ -1,7 +1,23 @@
 Esta es la historia de Freddy Vega
 
+<<<<<<< HEAD
 Freddy Vega tiene 32 años y nació en colombia
 
 Anita la huerfanita pas&oacute; por aqu&iacute;
 
 Mañana nos enfocaremos en su vida laboral.
+=======
+Freddy Vega tiene 32 años y nació en Colombia
+
+Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
+
+Experimento 1
+
+Experimento 2
+
+Master 1
+
+Master 2
+
+Mañana nos enfocaremos en su vida laboral
+>>>>>>> 95886456d635803c069472dffeeee3be8dcd13e8
