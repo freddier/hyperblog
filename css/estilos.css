@@ -16,12 +16,12 @@ body
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 1rem;
 }
 
 #cabecera #logo
 {
-    width: 20px;
+    width: 30px;
     vertical-align: middle;
 }
 
@@ -34,7 +34,7 @@ body
 
 #container
 {
-    width: 70%;
+    width: 90%;
     padding: 0;
     text-align: left;
     border: 1px solid #DDD;
@@ -47,8 +47,29 @@ body
 }
 #post
 {
+    display: flex;
+    align-items: flex-start;
     background: white;
     padding: 1em;
+}
+
+#post .desc-container {
+    width: 50%;
+}
+
+#post .students-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 25px;
+}
+
+#post .students-container p {
+    margin-right: 7px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: #97CA41;
+    color: white;
 }
 
 #footer
