@@ -23,6 +23,35 @@ body
 {
     width: 20px;
     vertical-align: middle;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+@keyframes fly {
+  0% {
+      transform: rotateZ(15deg);
+      transform: translateY(0px);
+
+  }
+  3% {
+      transform: rotateZ(0deg);
+  }
+  5% {
+      transform: rotateZ(-15deg);
+  }
+  8%{
+    transform: rotateZ(0deg);
+    transform: translateY(-10px);
+
+  }
+  100%{
+    transform: translateY(-90px);
+
+  }
+
+
 }
 
 #cabecera #tagline
@@ -58,5 +87,3 @@ body
     text-align: center;
     padding: 0.5em;
 }
-
-
