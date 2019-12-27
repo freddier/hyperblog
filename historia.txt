@@ -12,6 +12,7 @@ Master 1
 
 Master 2
 
-aqui agrego mas cambios para probar el stash
+aqui agrego mas cambios para probar el stash    
+mas lineas para las pruebas de stash
 
 Mañana nos enfocaremos en su vida laboral
