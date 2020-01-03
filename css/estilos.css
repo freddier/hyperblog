@@ -7,6 +7,7 @@ body
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: rgb(0, 160, 223);
 }
 
 #cabecera
@@ -17,6 +18,9 @@ body
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 #cabecera #logo
@@ -30,6 +34,12 @@ body
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+    
+}
+
+#cabecera img {
+    width: 35px;
+    padding: 0 15px;
 }
 
 #container
@@ -39,6 +49,7 @@ body
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+    background-color: rgb(196, 255, 199);
 }
 
 #container h1
