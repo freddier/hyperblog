@@ -45,6 +45,7 @@ body
 {
     font-size: 20px;
 }
+
 #post
 {
     background: white;
@@ -59,4 +60,54 @@ body
     padding: 0.5em;
 }
 
+#post p:nth-child(n+6){
+    margin: 0;
+}
 
+#post p:nth-child(n+6)::before{
+    color: #fff;
+    background-color: #1c3643;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+    margin-right: 10px;
+}
+
+#post p:nth-child(7n+6)::before{
+    content: 'P';
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#post p:nth-child(7n+7)::before{
+    content: 'L';
+}
+
+#post p:nth-child(7n+8)::before{
+    content: 'A';
+}
+
+#post p:nth-child(7n+9)::before{
+    content: 'T';
+}
+
+#post p:nth-child(7n+10)::before{
+    content: 'Z';
+}
+
+#post p:nth-child(7n+11)::before{
+    content: 'I';
+}
+
+#post p:nth-child(7n+12)::before{
+    content: '<3';
+    color: #98ca3f;
+    margin-bottom: 2px;
+    font-weight: bold;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
