@@ -1,5 +1,14 @@
 body
 {
+<<<<<<< HEAD
+    color: #333333;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+
+=======
     background: #1e1f24;
     color: #333;
     text-align: center;
@@ -30,20 +39,33 @@ body
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+>>>>>>> 2739c474ece16fd7a3955dc8302d516dac51db0b
 }
 
 #container
 {
     width: 70%;
+<<<<<<< HEAD
+    padding: 1cm;
+    text-align: left;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+
+=======
     padding: 0;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+>>>>>>> 2739c474ece16fd7a3955dc8302d516dac51db0b
 }
 
 #container h1
 {
     font-size: 20px;
+<<<<<<< HEAD
+
+}
+=======
 }
 #post
 {
@@ -60,3 +82,4 @@ body
 }
 
 
+>>>>>>> 2739c474ece16fd7a3955dc8302d516dac51db0b
