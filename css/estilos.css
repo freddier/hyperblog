@@ -59,4 +59,32 @@ body
     padding: 0.5em;
 }
 
+a{
+    text-decoration: none;
+    color: #333;
+}
 
+a:hover{
+    text-decoration: underline;
+    color: rgb(221, 91, 44);
+}
+
+.contribuciones{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item, .contribuciones{
+    padding: 15px;
+    display: grid;
+    grid-gap: 5px;
+    border: 2px solid #37488b;
+    border-radius: 8px;
+    text-align: center;
+}
+.item{
+    background: #c2ccf3;
+}
+h2{
+    text-align: center;
+    color: #333;
+}
