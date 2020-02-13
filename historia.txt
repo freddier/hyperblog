@@ -12,4 +12,7 @@ Master 1
 
 Master 2
 
+Aprendiendo del uso de git y github
+
+
 Mañana nos enfocaremos en su vida laboral
