@@ -59,4 +59,9 @@ body
     padding: 0.5em;
 }
 
+#imgGato{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
