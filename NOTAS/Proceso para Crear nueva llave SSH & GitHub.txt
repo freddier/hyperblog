@@ -1,0 +1,26 @@
+Proceso para Crear nueva llave SSH y activarla a tu cuenta de GitHub
+
+1.  Ir a GITBASH y ubicarte en la carpeta por default ya sea usando cd ~
+2.  Setear el usuario.(git config --global --list)
+3.  Setear: git config --global user.name "Nicolas Oficial"
+4.  Setear: git config --global user.email "nicolasbc@ecobridge.net"
+5.  Creamos la llave: ssh-keygen -t rsa -b 4096 -C "nicolasbc@ecobridge.net"
+6.  Luego seteamos la direccion del archivo: /c/Users/NICOLAS/.ssh/id_rsa_nicolas_oficial
+7.  El resto enter.
+8.  Luego habilitamos nuestro OS para que reconozca la clave generada.
+9.  Setear: eval $(ssh-agent -s)
+10. Agregar la clave ssh: ssh-add ~/.ssh/id_rsa_nicolas_oficial
+11. Una vez hecho todo esto, abrir el archivo id_rsa_nicolas_oficial.pub para copiar toda el archivo.
+12. Abrimos nuestro GitHub y nos vamos a configuracion.
+13. Vamos a la parte de configurar SSH.
+14. Darle agregar nueva llave SSH.
+15. Le pones un título y luego pegas todo lo copiado en el paso 11.
+16. Darle a crear y ya está todo.
+17. Vas a tus repos y le das a Clone or Download.
+18. Escoger usar SSH y copiar el path.
+19. En el bash seteas: git remote set-url origin git@github.com:rick76056/Hyperblog.git //donde git@github.....es el path que copiaste del paso 18.
+20. En caso sea un nuevo repo remoto, setear: git remote add origin git@github.com:rick76056/Hyperblog.git
+21. Una vez hecho todo esto, ya está anexado tu repo remoto con tu local.
+22. Verificar que este correcto el path, setear: git remote -v
+23. Probar hacer un: git pull origin master.
+24. Todo perfecto ahora dejame un Watch y una Estrella a mi GitHub, pero no forkees plox.  
