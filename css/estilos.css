@@ -20,10 +20,10 @@ body
 
 #cabecera #tagline
 {
-   margin: 0 0 0 1em;
-    font-weight: normal;}
+   padding: 0 0 0 1em;
+    font-weight: normal;
     font-size: 0.8em;
-    
+}
 #container
 {
     width: 70%;
@@ -31,4 +31,8 @@ body
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
+}
+#container h1
+{
+    font-size: 20px;
 }
