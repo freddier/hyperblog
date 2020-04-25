@@ -1,14 +1,10 @@
 body
 {
-    color: blue;
+
+    color: #333;
     text-align: center;
-<<<<<<< HEAD
-    font-family: courier;
+    font-family: Arial;
     font-size: 16;
-=======
-    font-family: "Arial";
-    font-size: 16px;
->>>>>>> cabecera
     margin: 0;
     padding: 0;
 }
