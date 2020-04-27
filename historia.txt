@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+﻿Esta es la historia de Juan Sanchez
+
+Juan Sanchez tiene 21 años y nació en Uruapan
+
+Mañana nos enfocaremos en su vida laboral.
+=======
 Esta es la historia de Freddy Vega
 
 Freddy Vega tiene 32 años y nació en Colombia
@@ -13,3 +20,4 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+>>>>>>> e8d86a03fff7fa049e58ebf8661eafd12bd9a2f2

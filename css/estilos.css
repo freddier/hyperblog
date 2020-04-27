@@ -34,6 +34,10 @@ body
 
 #container
 {
+<<<<<<< HEAD
+    background: white;
+=======
+>>>>>>> e8d86a03fff7fa049e58ebf8661eafd12bd9a2f2
     width: 70%;
     padding: 0;
     text-align: left;
@@ -47,6 +51,17 @@ body
 }
 #post
 {
+<<<<<<< HEAD
+    padding: 1em;
+}
+#footer
+{
+    background: #777777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+=======
     background: white;
     padding: 1em;
 }
@@ -60,3 +75,4 @@ body
 }
 
 
+>>>>>>> e8d86a03fff7fa049e58ebf8661eafd12bd9a2f2
