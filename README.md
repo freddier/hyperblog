@@ -12,6 +12,7 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 * Creado por el increíble Platzi Team
 * Creado por juan
 * Incluye en juan juan y juan
+diponible para juan
 * Incluye ejemplos en Windows, Linux y Mac
 * Disponible para todas las edades
 
