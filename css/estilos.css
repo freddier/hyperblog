@@ -50,6 +50,13 @@ body
     background: white;
     padding: 1em;
 }
+#post #par
+{
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #37488b;
+}
 
 #footer
 {
