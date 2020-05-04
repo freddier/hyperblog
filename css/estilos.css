@@ -58,5 +58,10 @@ body
     text-align: center;
     padding: 0.5em;
 }
-
+.image{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
 
