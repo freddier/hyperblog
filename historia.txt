@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Esta es la historia de Freddy Vega
 
 Freddy Vega tiene 32 años y nació en Colombia
@@ -13,3 +14,12 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+=======
+Esta es la historia de Doménica Vaca
+
+Doménica Vaca tiene 13 años y nacio en Ecuador
+
+Anita Platzi no existe 
+
+Hoy hablaremos de su historia.
+>>>>>>> 2a1cbd32803c892eb89eadb8a75b2a5428e1b1e8
