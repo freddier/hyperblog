@@ -12,7 +12,11 @@ body
 #cabecera
 {
     background: #37488b;
+<<<<<<< HEAD
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+=======
+    box-shadow: 0px 2px 50px 0px rgba(0,0,0,0.5);
+>>>>>>> 2a1cbd32803c892eb89eadb8a75b2a5428e1b1e8
     color: white;
     font-weight: bold;
     margin: 0;
@@ -25,12 +29,17 @@ body
     vertical-align: middle;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a1cbd32803c892eb89eadb8a75b2a5428e1b1e8
 #cabecera #tagline
 {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
 }
+<<<<<<< HEAD
 
 #container
 {
@@ -44,10 +53,26 @@ body
 #container h1
 {
     font-size: 20px;
+=======
+#container
+{
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: solid #DDD;
+    margin: 0 auto;
+}
+ 
+#container h1
+{
+    font-size: 20px;
+
+>>>>>>> 2a1cbd32803c892eb89eadb8a75b2a5428e1b1e8
 }
 #post
 {
     background: white;
+<<<<<<< HEAD
     padding: 1em;
 }
 
@@ -60,3 +85,14 @@ body
 }
 
 
+=======
+    padding: 1em ;
+}
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding:0.5em;
+}
+>>>>>>> 2a1cbd32803c892eb89eadb8a75b2a5428e1b1e8
