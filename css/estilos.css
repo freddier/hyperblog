@@ -51,6 +51,12 @@ body
     padding: 1em;
 }
 
+.contain {
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+}
+
 #footer
 {
     background: #37488b;
