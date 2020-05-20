@@ -59,4 +59,11 @@ body
     padding: 0.5em;
 }
 
+.GabrielChorens{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
 
