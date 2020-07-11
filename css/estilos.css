@@ -59,4 +59,11 @@ body
     padding: 0.5em;
 }
 
+.resaltar{
+    text-align: center;
+    font-size: 90px;
+    font-weight: bolder;
+    color: #37488b;
+}
+
 
