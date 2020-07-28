@@ -1,2 +1,2 @@
-# Blogpost-via-Platzi
-Test de git y gthub con un blogpost ficticio
+# hyperblog
+Un blog increíble para el curso de Git y Github de Platzi
