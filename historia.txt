@@ -22,3 +22,6 @@ disponible en diversos sistemas operativo
 
 No se porque esto no me cambio
 No se porque no cambio
+
+Esta es una linea   de prueba que no añadire luego
+Esta es otra linea agragada luego
