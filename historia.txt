@@ -11,3 +11,12 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+<<<<<<< HEAD
+=======
+
+
+Version en ingles
+
+Los elementos que iran aqui seran mejores que los anteriores xd
+Disponible en Linux windows y mac
+>>>>>>> a1611c1... disponible en diversos sistemas operativos
