@@ -1,0 +1,25 @@
+body
+{
+    font-family:cursive;
+    font-size:13px;
+}
+#cuadro1
+{
+  box-shadow:1px 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding:0.3em;
+}
+#cuadro2
+{
+  box-shadow:1px 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding:0.3em;
+}
+#cuadro3
+{
+  box-shadow:1px 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding:0.3em;
+}
+#cuadro4
+{
+  box-shadow:1px 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding:0.3em;
+}

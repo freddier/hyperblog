@@ -17,12 +17,18 @@ body
     padding:0.8em;
     font-size:1.5em;
 }
+#cabecera #logo
+{
+    width : 70px;
+    vertical-align: middle;
+}
 #cabecera #tagline
 {
     padding:1em 0 0 0;
     font-weight:normal;
     font-size:1.5em;
 }
+
 #container
 {
     width:70%;

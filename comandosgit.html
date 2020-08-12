@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Guis de Comandos de Git y Git Hub</title>
+        <link rel="stylesheet" href="css/estiloscomandosgit.css"/>
+    </head>
+    <body>
+        <h2>Comandos mas comunes en Git y Git Hub</h2> 
+        <div id="cuadro1">
+           <h3>Generales</h3>
+           <p><strong>pwd</strong> Muestra la car´peta donde estamos</p>
+           <p><strong>~</strong> Nos lleva directo al Home de la carpeta cuenta del usuario</p>
+           <p><strong>ls</strong> Muestra el contenido de la carpeta actual</p>
+           <p><strong>ls -al</strong> Muestra todos los archivos de la carpeta actual en una lista</p>
+           <p><strong>clear</strong> Limpiar la pantalla de la terminal</p>
+           <p><strong>cd mnt/Disco</strong> Para cambiar a otro disco (funciona en linux)</p>
+           <p><strong>cd letra</strong> Muestra las carpetas o archivos que empizan por la letra especificada</p>
+           <p><strong>mkdir</strong> Crea una carpeta/directorio</p>
+           <p><strong>touch nombre_archivo.extension</strong> Crea un archivo vacio con la extension especificada</p>
+           <p><strong>history</strong> Muestra una lista numerada de todos los comandos utilizados recientemente en la terminal (otra forma de ejecutar el comando es colocando <strong>!numero_del_comando_en_la_lista</strong>)</p>
+           <p><strong>rm nombre_archivo</strong> Elimina el archivo especificado (Este comando es delicado y existen distintos tipos)</p>
+           <p><strong>cat nombre_archivo</strong> Muestra directamente en la terminal el contenido del archivo especificado</p>
+           <p><strong>comando --help</strong> Muestra la ayuda sobre el comando especificado</p>
+        </div>   
+        <div id="cuadro2">
+            <h3>Inicializar Git</h3>
+            <p><strong>git init</strong> Inicializa Git en la carpeta donde estamos ubicados</p>
+            <p><strong>git config</strong> Muestra todas las configuraciones que tiene Git </p>
+            <p><strong>git config -l</strong> Muestra la configuracion por defecto especifica de mi Git (tambien se puede usar <strong>git config --list</strong>)</p></strong>
+            <p><strong>git config -l --show-origin</strong> Muestra donde estan guardadas en windows las configuracios de Git</p>
+            <p><strong>git config --global user.name "nombre_usuario"</strong> Cambia el nombre de usuario de Git (Generalmente se maneja un usuario por PC). Para cambiar el mail es lo mismo pero usando <strong>user.email</strong></p>
+         </div>
+         <div id="cuadro3">
+            <h3>Para Agregar</h3>
+            <p><strong>git add nombre_archivo</strong> Agrega a Staging los cambios realizados al archivo especificado que esta en la carpeta actual de trabajo (directorio en windows) si se usa <strong>git add .</strong> agrega todos los cambios del proyecto</p>
+            <p><strong>git commit -m "mensaje_del_commit"</strong> Agrega a Git repository los cambios con el mensaje especificado (si entra al editor Vim, salir con Esc + w + q tambien con Esc + z +z)</p>
+            <p><strong>git commit -am "mensaje_del_commit"</strong> Une los dos comandos anteriores en uno, es decir hace un git add y un git commit al mismo tiempo (solo funciona si al archivo/proyecto ya se le ha hecho un <strong>git add</strong> antes)</p>
+            <p><strong>git checkout ID_commit nombre_archivo</strong> Regresa a Staging una version anterior del archivo (<strong>git checkout master nombre_archivo</strong> regresa a la version mas nueva que está en el master, luego hay que hacer git commit)</p>
+         </div>
+         <div id="cuadro4">
+            <h3>Para Mostrar</h3>
+            <p><strong>git status</strong> Muestra el estado del proyecto en relacion a los ultimos cambios que se icieron en el mismo</p>
+            <p><strong>git show nombre_archivo</strong> Muestra el detalle del ultimo cambio que se le hizo al archivo especificado en base al ultimo commit (si se coloca <strong>git show</strong> solo, muestra de todo el proyecto) </p>
+            <p><strong>git diff commitA commitB</strong> Muestra la diferencia especifica en los cambios de los dos commit especificados (se recomienda colocar la version mas vieja primero para ver de mejor forma la diferencia)</p>
+            <p><strong>git log nombre_archivo</strong> Muestra los ID de los commit realizados, es decir muestra la historia del archivo (si se coloca <strong>git log</strong> solo, muestra todos los commit del proyecto)</p>
+            <p><strong>git log --stat</strong> Muestra los ID de los commit realizados con el detalle de los cambios especificos en cada commit</p>
+            <p><strong>git log --all</strong> Muestra literalmente todo lo que se ha hecho historicamente en el proyecto</p>
+            <p><strong>git log --all --graph</strong> Muestra todos los cambios con lineas de colores que destacan como han sido los cambios en las ramas</p>
+            <p><strong>git log --all --graph --decorate --oneline</strong> Muestra todos los cambios de manera muy resumida (es muy util para ver la historia resumida)</p>
+         </div>  
+    </body>
+</html>
