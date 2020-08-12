@@ -40,3 +40,8 @@ body
     padding:2em;
     font-size:1.5em;
 }
+#footer
+{
+    background:#777;
+    color: white;
+}
