@@ -34,6 +34,28 @@ body
 
 #container
 {
+<<<<<<< HEAD
+    width:70%;
+    padding:1em;
+    text-align:left;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+#container h1
+{
+    font-size:2em;
+}
+#post
+{
+    padding:2em;
+    font-size:1.5em;
+}
+#footer
+{
+    background:#777;
+    color: white;
+}
+=======
     width: 70%;
     padding: 0;
     text-align: left;
@@ -60,3 +82,4 @@ body
 }
 
 
+>>>>>>> b42cbabf0346add2c54fea5b3a05ea1a8bf30913
