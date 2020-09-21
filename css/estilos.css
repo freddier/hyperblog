@@ -59,4 +59,15 @@ body
     padding: 0.5em;
 }
 
+#names {
+    border: solid 1px rgba(69, 206, 224, 0.356);
+    border-radius: 5px;
+    background-color:  yellowgreen;
+}
 
+#names p {
+    color: white;
+    text-align: center;
+    text-shadow: black;
+    font-size: 20px;
+}
