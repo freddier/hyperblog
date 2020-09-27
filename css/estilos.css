@@ -51,6 +51,14 @@ body
     padding: 1em;
 }
 
+#post img {
+padding-left: 15%;
+}
+
+h1 {
+    color: purple;
+}
+
 #footer
 {
     background: #37488b;
