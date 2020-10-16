@@ -12,8 +12,4 @@ Master 1
 
 Master 2
 
-Hola freddy, soy Bryam Vega, estoy tomando el curso de git porque 
-siempre quise ser un profesional en git, y con este curso entendi 
-como resolver problemas que no sabia como hacerlo antes
-
 Mañana nos enfocaremos en su vida laboral
