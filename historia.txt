@@ -14,4 +14,4 @@ Master 2
 
 Mañana nos enfocaremos en su vida laboral
 
-experimentando un poco con el curso degit y github.
+experimentando un poco con el curso de git y github.
