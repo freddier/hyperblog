@@ -19,3 +19,4 @@ components:
       name: API Key
       type: apiKey
       in: query
+ 
