@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: prueba
+  version: '1.0'
+  contact:
+    name: santiago
+    email: beltrangaitansantiago@gmail.com
+  license:
+    name: ISC
+  description: ''
+servers:
+  - url: 'http://localhost:3000'
+    description: sanbega
+paths: {}
+components:
+  schemas: {}
+  securitySchemes:
+    API Key - 1:
+      name: API Key
+      type: apiKey
+      in: query
