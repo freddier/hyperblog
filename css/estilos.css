@@ -59,4 +59,8 @@ body
     padding: 0.5em;
 }
 
-
+.MAAM:hover{
+    transition: 1s ease all;
+    color: #37488b;
+    font-size: 25px;
+}
