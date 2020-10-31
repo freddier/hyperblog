@@ -6,5 +6,6 @@ En este curso vemos cosas como:
 
 * Todos los comandos de Git
 * Flujo de trabajo en Github
+* Creado por el increible Platzi team
 
 Y como recordatorio: **Este readme.md es un chiste.** Esta diseñado únicamente para el ejemplo de como realizar un readme.md
