@@ -10,12 +10,16 @@ body {
     border: 2px solid #000000;
     padding: 30px;
 }
+div {
+    background: red;
+}
 
-h1 {
-    color: purple;
+div h1 {
+    color: white;
     font-size: 60px;
     text-align: center;
     padding-bottom: 40px;
+    font-family: monospace;
     /* font-weight: 700; */
 }
 
