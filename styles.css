@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid #000000;
+    padding: 30px;
+}
+
+h1 {
+    color: purple;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+    /* font-weight: 700; */
+}
+
+p {
+    font-size: 25px;
+    line-height: 40px;
+}
