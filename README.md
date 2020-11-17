@@ -1,4 +1,4 @@
-# hyperblog
+# Hyperblog 😎
 Un blog para practicar los conocimientos de Git y Github
 > El curso de Git y Github me ayudará a realizar mis proyectos de una manera más profesional, además de poder estar preparado para trabajar de una manera colaborativa.
 
