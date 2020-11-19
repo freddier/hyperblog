@@ -25,3 +25,16 @@ p {
     font-size: 25px;
     line-height: 40px;
 }
+
+footer {
+    background: #000;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 30px;
+    padding: 10px;
+}
