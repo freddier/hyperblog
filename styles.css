@@ -11,16 +11,14 @@ body {
     padding: 30px;
 }
 div {
-    background: orange;
+    background: rgb(255, 0, 0);
 }
 
 div h1 {
-    color: rgb(62, 197, 8);
+    color: rgb(14, 17, 194);
     font-size: 60px;
     text-align: center;
-    padding-bottom: 40px;
-    font-family: monospace;
-    /* font-weight: 700; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 p {
