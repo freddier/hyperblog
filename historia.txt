@@ -1,5 +1,3 @@
 esta es una prueba de los cambios que se pueden hacer con git
 
-seguimos haciendo pruebas
-
-Trabajamos para ver como funcionan los cambios en git
+Mañana nos enfocaremos en la especialidad
