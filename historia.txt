@@ -2,4 +2,6 @@ esta es una prueba de los cambios que se pueden hacer con git
 
 seguimos haciendo pruebas
 
-aqui haciendo al mamada para ver show
+Trabajamos para ver como funcionan los cambios en git
+
+
