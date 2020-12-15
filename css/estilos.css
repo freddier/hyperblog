@@ -59,4 +59,7 @@ body
     padding: 0.5em;
 }
 
-
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
