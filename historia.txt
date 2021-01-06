@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-esta es una prueba de los cambios que se pueden hacer con git
-
-Mañana nos enfocaremos en la especialidad
-=======
 Esta es la historia de Freddy Vega
 
 Freddy Vega tiene 32 años y nació en Colombia
@@ -18,4 +13,3 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
->>>>>>> b9dc0281729788019c8dae74b9419e4e80cc4669
