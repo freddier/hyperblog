@@ -49,4 +49,18 @@ body
 {
     background: white;
     padding: 1em;
+<<<<<<< HEAD
 }
+=======
+}
+
+#footer
+{
+    background: #37488b;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+
+>>>>>>> b9dc0281729788019c8dae74b9419e4e80cc4669
