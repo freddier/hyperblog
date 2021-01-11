@@ -1,5 +1,6 @@
 body
 {
+<<<<<<< HEAD
     color:black;
     text-align: left;
     font-family: "Arial";
@@ -8,14 +9,57 @@ body
 {
     width: 70%;
     padding: 1em;
+=======
+    background: #1e1f24;
+    color: #333;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera
+{
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#container
+{
+    width: 70%;
+    padding: 0;
+>>>>>>> b9dc0281729788019c8dae74b9419e4e80cc4669
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> b9dc0281729788019c8dae74b9419e4e80cc4669
 #container h1
 {
     font-size: 20px;
 }
+<<<<<<< HEAD
 #cabecera{
     background-color: blueviolet;
     color: white;
@@ -25,3 +69,20 @@ body
     padding: 0.5em;
 
 }
+=======
+#post
+{
+    background: white;
+    padding: 1em;
+}
+
+#footer
+{
+    background: #37488b;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+
+>>>>>>> b9dc0281729788019c8dae74b9419e4e80cc4669
