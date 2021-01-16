@@ -58,5 +58,12 @@ body
     text-align: center;
     padding: 0.5em;
 }
+#post #myline
+{
+    font-family: Courier;
+    font-weight: bolder;
+    color: rgb(5, 200, 20);
+
+}
 
 
