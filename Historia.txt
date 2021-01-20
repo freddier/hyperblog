@@ -2,4 +2,6 @@ hola soy daniel Gonzalez
 
 hice cambios en cabecera
 
-practicando merge
+pero ahora estoy en master
+
+vamos a ver si sirve el pull y push
