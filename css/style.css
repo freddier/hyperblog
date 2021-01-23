@@ -1,0 +1,35 @@
+body {
+  color: #333;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 70%;
+  padding: 1em;
+  text-align: left;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+}
+
+.cabecera {
+  background-color: #8bf;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.tagline {
+  padding: 0 0 0 1em;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.container h1 {
+  font-size: 20px;
+}
