@@ -1,7 +1,5 @@
-hola soy daniel Gonzalez
+Esta es la historia de Freddy Vega
 
-hice cambios en cabecera
+Freddy Vega tiene 32 años y nació en Colombia
 
-pero ahora estoy en master
-
-vamos a ver si sirve el pull y push
+Mañana nos enfocaremos en su vida laboral
