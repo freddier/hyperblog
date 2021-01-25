@@ -51,6 +51,14 @@ body
     padding: 1em;
 }
 
+#name{
+
+    color:#ffffff;
+    font-weight: 900;
+    background: red;
+    padding: 5px;
+}
+
 #footer
 {
     background: #37488b;
