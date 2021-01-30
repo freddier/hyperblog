@@ -12,3 +12,7 @@ body{
     padding: 17px;
     border: 1px solid #000;
 }
+
+.container p{
+    color: #0B0B0B;
+}
