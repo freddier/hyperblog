@@ -2,4 +2,31 @@ body{
     color:deeppink;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.container
+{
+    border: 10px double #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container button{
+    background-color: deeppink;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 7px;
+    transition: all 1s;
+}
+
+.container button:hover
+{
+    background-color: rgb(223, 126, 193);
+    color: #000000;
+}
+
