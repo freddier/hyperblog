@@ -15,4 +15,22 @@ body{
 
 .container p{
     color: #0B0B0B;
+<<<<<<< HEAD
 }
+=======
+}
+
+.container button
+{
+    color: aliceblue;
+    background-color: deeppink;
+    transition: all 1s;
+    padding: 5px 20px;
+}
+.container button:hover
+{
+    background-color: rgb(223, 126, 193);
+    color: #000000;
+}
+
+>>>>>>> development
