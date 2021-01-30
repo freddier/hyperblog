@@ -1,3 +1,7 @@
 esta es la historia de camilo
 camilo tiene 22 años y nacio en Colombia xd F
 hoy hablaremos de su historia
+aqui dejo esta linea para probar git reset 
+empezo hace un dia el programa de git de platzi 
+y espera volverse un crack en git
+y me cago en juan por rata asquerosa
