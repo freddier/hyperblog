@@ -2,4 +2,13 @@ body{
     color:deeppink;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    padding: 17px;
+    border: 1px solid #000;
 }
