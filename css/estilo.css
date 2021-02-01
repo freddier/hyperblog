@@ -16,6 +16,8 @@ body
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+    text-align: center;
+    font-size: 20px;
 }
 
 #cabecera #tagline
@@ -24,6 +26,13 @@ body
     font-weight: normal;
     font-size: 0.8em;
 }
+
+.logo
+{
+    width: 30px;
+    vertical-align:text-bottom;
+}
+
 
 #container
 {
