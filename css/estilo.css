@@ -56,3 +56,11 @@ body
 {
     border: 2px solid #000000;
 }
+
+#footer
+{
+    background-color: #6A6A6A;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
