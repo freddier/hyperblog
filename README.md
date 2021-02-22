@@ -1,4 +1,4 @@
-#Hyperblog 🤓
+### Hyperblog 🤓
 - Este es un curso que estoy realizando en Platzi, genial sobre git y github, en este proyecto estoy poniendo en practica los conocimiento vistos.
 
 >Siempre parece imposible hasta que se hace (Nelson Mandela)
