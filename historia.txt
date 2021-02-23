@@ -1,10 +1,12 @@
 Esta es la historia de Freddy Vega
 
-Freddy Vega tiene 32 años y nació en Colombia, PERO NO EN PEREIRA
+Freddy Vega tiene 32 años y nació en Colombia, PERO NO EN PEREIRA SINO BOGOTÁ
 
 Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
 
+Este es el experimento 1
 
+Este es el segundo experimento 
 
 Mañana nos enfocaremos en su vida laboral
 
