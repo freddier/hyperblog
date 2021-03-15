@@ -59,4 +59,7 @@ body
     padding: 0.5em;
 }
 
-
+.decorator{
+    color: #3d1283;
+    font-weight: bold;
+}
