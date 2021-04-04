@@ -16,3 +16,6 @@ Mañana nos enfocaremos en su vida laboral
 
 nueva línea en master
 otra nueva línea en master
+Experimentando rebase
+Experimentando rebase 2
+Experimentando rebase 3
