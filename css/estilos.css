@@ -45,12 +45,29 @@ body
 {
     font-size: 20px;
 }
+#container h2 
+{
+    font-size: 15px;
+    color: darkblue;
+}
+
 #post
 {
     background: white;
     padding: 1em;
 }
-
+#smallerpar {
+    font-size: 15px;
+    color: darkblue;
+}
+#smallerpar2 {
+    font-size: 15px;
+    color: darkblue;
+}
+#smallerpar3 {
+    font-size: 15px;
+    color: darkblue;
+}
 #footer
 {
     background: #37488b;
