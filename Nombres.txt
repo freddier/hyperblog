@@ -1,0 +1,7 @@
+Escribir 5 nombres que comiencen con la letra mencionada.
+>>> A <<<
+1)Ana
+2)Anali
+3)Alma
+4)Aida
+5)Amelia
