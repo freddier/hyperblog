@@ -11,9 +11,26 @@ Escribir 5 nombres que comiencen con la letra mencionada.
 3)Blanca
 4)Bella
 5)Beto
+<<<<<<< HEAD
 >>> L <<<
 1)Liliana
 2)Leonardo
 3)Leandro
 4)Lesli
 5)Lucas
+=======
+------------------------------------------------------------    
+Videojuegos que he jugado ne toda mi vida.
+1)Budokai Tenkaichi 3
+2)GTA toda la saga menos la 5
+3)Angry birds
+4)Pokemon todas las sagas menos las últimas.
+5)Counter Strike
+-------------------------------------------------------------
+Animes vistos recientemente.
+1)Jujutsu Kaisen
+2)Shingeki no Kyojin
+3)Nanatsu no Taizai
+4)Charllote
+5)Fairy Tail
+>>>>>>> variante
