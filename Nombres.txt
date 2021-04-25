@@ -5,3 +5,9 @@ Escribir 5 nombres que comiencen con la letra mencionada.
 3)Alma
 4)Aida
 5)Amelia
+>>> B <<<
+1)Bianca
+2)Beatriz
+3)Blanca
+4)Bella
+5)Beto
