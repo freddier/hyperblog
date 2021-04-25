@@ -1,13 +1,5 @@
-AGOGO! DIGA USTED! NOMBRES DE! ANIMALES! 
+AGOGO! DIGA USTED! NOMBRES DE! ANIMES!
 POR EJEMPLO...!
-1)Vaca 
-2)Pollito
-3)Cuervo
-----------------------
-4)Perro
-5)Gato
-6)Conejo
------------------------
-7)Caballo
-8)Yegua
-9)Elefante
+1)Nanatsu no Taizai
+2)Shingeki no Kyojin
+3)Naruto
