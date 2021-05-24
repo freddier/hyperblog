@@ -45,6 +45,13 @@ body
 {
     font-size: 20px;
 }
+
+#container p i{
+    color: #82b040;
+    float: left;
+    margin-right: 0.2em;
+}
+
 #post
 {
     background: white;
