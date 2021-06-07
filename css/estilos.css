@@ -14,6 +14,7 @@ body
     background: #37488b;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
+    
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
@@ -23,6 +24,7 @@ body
 {
     width: 20px;
     vertical-align: middle;
+    
 }
 
 #cabecera #tagline
@@ -34,21 +36,24 @@ body
 
 #container
 {
-    width: 70%;
+    width: 100%;
     padding: 0;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+    
+    
 }
 
 #container h1
 {
     font-size: 20px;
+    
 }
 #post
 {
     background: white;
-    padding: 1em;
+    padding: 0.25em;
 }
 
 #footer
@@ -58,5 +63,44 @@ body
     text-align: center;
     padding: 0.5em;
 }
+#footera
+{
+    background: #040b66;
+   
 
+}
 
+.Ecuador
+{
+	background-image:linear-gradient(yellow 40%, blue 40%, blue 70%, red 70%);
+    width: 200px; height: 20px;px;margin:auto;
+    display:inline-block;
+
+    color: white;
+	border:0.5px solid;
+}
+
+#footera #ecua1
+{
+  color: white;
+  direction: ltr;
+    letter-spacing: 2px;
+    word-spacing:0px;
+text-indent:10px;
+
+}
+
+#footera #ecua2
+{
+  color:whitesmoke;
+  direction: ltr;
+    letter: spacing 10px;px;
+    word-spacing:20px;
+    text-indent:0px;
+text-align:center;
+text-shadow: 1px 1px 1px #010107;
+ text-rendering: geometricPrecision;
+margin: 0cm; 
+
+font-size: 0.5cm;
+}
