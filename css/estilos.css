@@ -21,6 +21,7 @@ body
 
 #cabecera #logo
 {
+
     width: 20px;
     vertical-align: middle;
 }
@@ -45,10 +46,25 @@ body
 {
     font-size: 20px;
 }
+
+#post #title
+{
+    font-family: Georgia;
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+}
+
 #post
 {
     background: white;
     padding: 1em;
+}
+
+#post #logo_p
+{
+    width: 250;
+    vertical-align: middle;
 }
 
 #footer
