@@ -49,6 +49,8 @@ body
 {
     background: white;
     padding: 1em;
+    overflow-y: scroll;
+    height: 80vh;
 }
 
 #footer
@@ -58,5 +60,7 @@ body
     text-align: center;
     padding: 0.5em;
 }
-
+.participantes{
+    text-align: center;
+}
 
