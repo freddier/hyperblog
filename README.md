@@ -1,16 +1,47 @@
 # Hyperblog 💚
-Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git-github/ " curso de Git y Github") de [Platzi](https://platzi.com/ "Platzi")
-> El curso de Git y Github de Platzi es lo que me hacía falta para triplicar mi salario y lanzarme a la industria del tejido de lana sintética con Machine Learning
-> - niñita
 
-## En este curso vemos de todo
-* Todos los comandos de Git
-* El flujo de trabajo en Github
-* El verdadero amor por las buenas prácticas
-* Trucos muy locos del profesor
-* Las personalidades múltiples de Freddy
-* Creado por el increíble Platzi Team
-* Incluye ejemplos en Windows, Linux y Mac
-* Disponible para todas las edades
+## Course Description
+> In this course we learned about main git commands and concepts to know how it works and how to implement them in our projects
 
-Y como un amable recordatorio: **Este readme.md es un chiste**.  Diseñado para el ejemplo. Si llegas acá NO TE LO TOMES EN SERIO y mejor ve [**a ver el curso**](https://platzi.com/cursos/git-github/ "a ver el curso").
+## Introduction
+
+#### What is git?
+> Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+#### What is github?
+> GitHub is a website and service that we hear geeks rave about all the time.
+> If you have a team that is constantly making changes to a word document, for example,  you could use GitHub as your version control system.
+
+## Course
+> [Git and Github course](https://platzi.com/cursos/git-github/ " curso de Git y Github") from [Platzi](https://platzi.com/ "Platzi")
+
+
+## Concepts
+> * All git commands
+> * Gitflow
+> * Good practices
+> * Windows, Linux y Mac examples
+
+## Main Commands
+> - `git init`: turns a directory into an empty Git repository.
+> - `git add`:Adds files in the to the staging area for Git.
+> - `git commit`: Record the changes made to the files to a local repository.
+> - `git status`:This command returns the current state of the repository.
+> - `git branch`: To determine what branch the local repository is on, add a new branch, or delete a branch.
+> - `git checkout`: To start working in a different branch.
+> - `git merge`:  combines the changes from one branch to another branch.
+> - `git remote`: To connect a local repository with a remote repository.
+> - `git clone`: To create a local working copy of an existing remote repository
+> - `git pull`: To get the latest version of a repository.
+> - `git push`: Sends local commits to the remote repository.
+> - `git stash`: To save changes made when they’re not in a state to commit them to a repository.
+
+## Dependencies
+> - Install [Git](https://git-scm.com/downloads)
+> - Install [VSCode](https://code.visualstudio.com/)
+
+## Technologies
+> - HTML
+> - CSS
+
+__Created by Maximiliano Isaac Mata Jara__
