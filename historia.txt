@@ -4,6 +4,8 @@ Freddy Vega tiene 32 años y nació en Colombia
 
 Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
 
+Daniel Castellanos, estudiante de Platzi, contribuyó a este proyecto Open Source, como parte
+del curso de Git y GitHub, nunca pares de aprender!
 Experimento 1
 
 Experimento 2
