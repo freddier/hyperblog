@@ -1,0 +1,49 @@
+{
+    "fullName": "Jonathan Hevert Meza Osorio",
+    "firstName": "Jonathan",
+    "secondLastName": "Osorio",
+    "name": "Hevert",
+    "lastName": "Meza",
+    "id": "1234",
+    "identityDocument": {
+        "type":"DNI",
+        "id":"72459743"
+    },
+    "nonStandardAddress": {
+        "address1":"dasda1232",
+        "address2":"dasda1232",
+        "address3":"dasda1232",
+        "department":"dasda1232",
+        "province":"dasda1232",
+        "district":"dasda1232",
+        "zipCode":"dasda1232",
+        "reference":"dasda1232"
+    },
+    "phone": {
+        "personal":[{
+            "type":"PERSONAL",
+            "number":"978352312",
+            "external":"NO"
+        }],
+        "work":{
+            "number":"fsd",
+            "external":"fsdfsd"
+        },
+        "extension":{
+            "resident":"reident work",
+            "business":"business work",
+            "work":"work extension"
+        }
+    },
+    "email": {
+        "personal":"hevert_93@hotmail.com"
+    },
+    "root": {
+        "segmentedIndicatorImage":"segmentedIndicatorImage",
+        "employeeIndicator":"employeeIndicator"
+    },
+    "employer": {
+        "coporationName":"Everis Perú SAC",
+        "ubigeoCompany":"01"
+    }
+}
