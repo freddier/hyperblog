@@ -1,5 +1,6 @@
 Este es un texto plano
 
-freddy escribio muchas cosas
+freddy escribio muchas cosas y ahora adiciono cosas
+en una linea nueva 
 
 yo también lo hare
