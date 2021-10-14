@@ -1,4 +1,5 @@
-body
+
+/*body
 {
     background: #1e1f24;
     color: #333;
@@ -57,6 +58,225 @@ body
     color: white;
     text-align: center;
     padding: 0.5em;
+}*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/10/2021, 1:35:40 p. m.
+    Author     : huesomartinez
+*/
+
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+/* BARRA DE NAVEGACION */
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4rem;
+    background:#11101d;
+    transition: all  0.5s ease;
+}
+.sidebar.active{
+    width: 24rem;
+}
+.sidebar .logo_content .logo{
+    color: #fff;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+    opacity: 0;
+}
+.sidebar.active .logo_content .logo{
+    opacity: 1;
+    pointer-events: none;
+}
+.logo_content .logo i{
+    font-size: 2.8rem;
+    margin-right: 0.5rem;
+}
+.logo_content .logo .logo_name{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.sidebar #btn{
+    position: absolute;
+    color: #fff;
+    top: 0.6rem;
+    left: 50%;
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    transform: translate(-50%);
+}
+.sidebar.active #btn{
+    left: 90%;
+}
+.sidebar .nav_list{
+    margin-top: 2rem;
+}
+.sidebar .nav_list li{
+    position: relative;
+    height: 3rem;
+    width: 100%;
+    margin: 0 0.5rem;
+    list-style: none;
+    line-height: 2rem;
+}
+
+.sidebar.active .nav_list li input{
+    opacity: 1;
+    position: absolute;
+    height: 100%;
+    width: 95%;
+    left: 0;
+    top: 0;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #38364b;
+    padding-left: 3rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.sidebar .nav_list li input{
+    opacity: 0;
+}
+.sidebar .nav_list li .bx-search-alt{
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    font-size: 1.7rem;
+    transition: all 0.5s ease;
+}
+.sidebar .nav_list li .bx-search-alt:hover{
+    background: #fff;
+    color: #595764;
+}
+.sidebar .nav_list li a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+.sidebar .nav_list li a i{
+    font-size: 2.1rem;
+}
+.sidebar .nav_list li a:hover{
+    color: #11101d;
+    background: #fff;
+}
+.sidebar .nav_list li i{
+    height: 3rem;
+    min-width: 3rem;
+    border-radius: 1.2rem;
+    line-height: 3rem; 
+    text-align: center;
+}
+.sidebar .links_name{
+    opacity: 0;
+    pointer-events: none;
+}
+.sidebar.active .links_name{
+    opacity: 1;
+    pointer-events: auto;
+}
+/* CONTENIDO DE LA VISTA */
+.home_content{
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 4rem);
+    left: 4rem;
+    transition: all 0.5s ease;
+}
+.sidebar.active ~ .home_content{
+    left: 24rem;
+    width: calc(100% - 24rem);
+
+}
+.home_content .text_title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #38364b;
+    margin: 1rem;
+    text-align: center;
+}
+/* BUSCADOR DE VENTAS */
+.sales-search{
+    margin: auto;
+    text-align: center;
+}
+.sales-search .names{
+    margin: 2.5rem;
+    width: 60%;
+}
+.sales-search .dates{
+    margin: auto;
+    width: 20%;
+}
+.sales-search .bx-search-alt{
+    color: #595764;
+    font-size: 1.7rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+.sales-search .bx-search-alt:hover{
+    background-color: #6b678b;
+    color: #fff;
+    border-radius: 2rem;
+}
+/* TABLA DE VENTAS */
+.table_sales{
+    margin: auto;
+}
+.table_sales table{
+    margin: 1rem auto;
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table_sales table thead{
+    background-color: #514e6e;
+    border-bottom: solid 0.3rem #11101d;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.table_sales table th,td{
+    padding: 2rem;
+}
+.table_sales table tr:nth-child(even){
+    background-color: #ddd;
+}
+.table_sales table tr:hover td{
+    background-color: #6b678b;
+    color: #fff;
+}
+
 
 
