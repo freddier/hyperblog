@@ -1,6 +1,24 @@
 body
 {
- color:blueviolet;   
+ color:blueviolet;    
  text-align: center;
  font-family: "Arial";
+ font-size: 15px;
+ margin: 0;
+ padding: 0;
+
+}
+
+#container
+{
+    width: 70%; 
+    padding: lem;
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+#container h1
+{  
+   font-size: 20px;
 }
