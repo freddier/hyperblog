@@ -1,7 +1,7 @@
 body
 {
-    background: #1e1f24;
-    color: #333;
+    background: black;
+    color: white;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
@@ -11,7 +11,7 @@ body
 
 #cabecera
 {
-    background: #37488b;
+    background: #7A0765;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
@@ -37,7 +37,7 @@ body
     width: 70%;
     padding: 0;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 1px solid #7A0765;
     margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ body
 }
 #post
 {
-    background: white;
+    background: #1e1f24;
     padding: 1em;
 }
 
