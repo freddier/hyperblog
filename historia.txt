@@ -1,8 +1,12 @@
-Esta es la historia de Freddy Vega
+Esta es la historia del proyecto Hyperblog
 
-Freddy Vega tiene 32 años y nació en Colombia
+Freddy Vega tiene 32 años y nació en Colombia. Es la persona que inicio el proyecto
+para poder explicar el uso de git y github.
 
 Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
+
+Jose Ramos tiene 36 años y nacio en Mexico. Estoy contribuyendo al codigo usando WSL y Vscode que
+aprendi a configurar con CelisMX.
 
 Experimento 1
 
