@@ -1,8 +1,8 @@
-Esta es la historia de Carlos Castañeda
+Esta es la historia de Freddy Vega
 
-Tiene 25 años y nació en Colombia.
+Freddy Vega tiene 32 años y nació en Colombia
 
-Anita Platzi, Bienvenida al proyecto !
+Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
 
 Experimento 1
 
@@ -12,4 +12,4 @@ Master 1
 
 Master 2
 
-Mañana hablaremos de su vida laboral.
+Mañana nos enfocaremos en su vida laboral
