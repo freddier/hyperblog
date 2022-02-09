@@ -13,3 +13,7 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+
+Yo estuve aqui
+
+Hola estoy tomando el curso de GIT y GITHUB
