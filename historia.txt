@@ -13,3 +13,18 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+n Sierra S&aacute;nchez</p>
+                <p>Kinslert Daniel Virguez</p>
+                <p>Esteban Saldarriaga Alzate</p>
+                <p>Carlos Opazo Rosales</p>
+                <p>Juan Sebastian Durango Mora</p>
+                <p>Juan Zabala</p>
+                <p>Angel Mambel</p>
+                <p>Mauricio Combariza</p>
+                <p>Oscar Mizael Nuñez Garcia</p>
+                <p>aviloncho</p>
+                <p>Dal&iacute; Andr&eacute;s Ju&aacute;rez Vel&aacute;zquez</p>
+                <p>@CristianSCh</p>
+                <p>Luis Gonz&aacute;lez</p>
+                <p>Jose Requena</p>
+		<p>Roberto Valenzuela</p>
