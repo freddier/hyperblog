@@ -1,0 +1,3 @@
+Hola
+
+Este es el archivo de prueba del curso y de la clase
