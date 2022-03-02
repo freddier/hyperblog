@@ -15,5 +15,6 @@ Este cambio fue hecho desde la rama rebase, recuerda hacer commit
 Otro cambio hecho desde la rama rebase por si acaso
 
 Hubo conflictos al hacer rebase desde la rama rebase
+No hubo conflictos al hacer rebase desde master, todo en orden.
 
 Mañana nos enfocaremos en su vida laboral
