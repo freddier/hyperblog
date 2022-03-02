@@ -8,8 +8,8 @@ Para hacer rebase primero se comienza por la rama que se quiere eliminar
 
 Y luego se hace rebase a main/master
 
-Este cambio es de main
+Este cambio es de master
 
-Master 2
+Este otro cambio también es de master
 
 Mañana nos enfocaremos en su vida laboral
