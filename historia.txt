@@ -12,6 +12,7 @@ Este otro cambio también es de master
 
 Hiciste mal el rebase, se supone que tienes que hacer commit primero
 Este cambio fue hecho desde la rama rebase, recuerda hacer commit
+Otro cambio hecho desde la rama rebase por si acaso
 
 Hubo conflictos al hacer rebase desde la rama rebase
 
