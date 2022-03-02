@@ -5,11 +5,14 @@ Freddy Vega tiene 32 años y nació en Colombia
 Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
 
 Para hacer rebase primero se comienza por la rama que se quiere eliminar
-
 Y luego se hace rebase a main/master
 
 Este cambio es de master
-
 Este otro cambio también es de master
+
+Hiciste mal el rebase, se supone que tienes que hacer commit primero
+Este cambio fue hecho desde la rama rebase, recuerda hacer commit
+
+Hubo conflictos al hacer rebase desde la rama rebase
 
 Mañana nos enfocaremos en su vida laboral
