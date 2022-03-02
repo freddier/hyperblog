@@ -4,11 +4,11 @@ Freddy Vega tiene 32 años y nació en Colombia
 
 Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
 
-Experimento 1
+Para hacer rebase primero se comienza por la rama que se quiere eliminar
 
-Experimento 2
+Y luego se hace rebase a main/master
 
-Master 1
+Este cambio es de main
 
 Master 2
 
