@@ -12,4 +12,6 @@ Master 1
 
 Master 2
 
+Soy Cesar que vive en Leon Gto, desde Mexico, y soy colaborador open source
+
 Mañana nos enfocaremos en su vida laboral
