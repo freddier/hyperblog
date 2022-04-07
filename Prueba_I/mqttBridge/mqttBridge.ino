@@ -17,8 +17,8 @@
 #define   MESH_PASSWORD   "12345678"
 #define   MESH_PORT       5555
 
-#define   STATION_SSID     "QUIROGA 2.4Ghz_ETB"
-#define   STATION_PASSWORD "1000793818D"
+#define   STATION_SSID     "iPhone de Diego"
+#define   STATION_PASSWORD "Diego2603"
 
 #define HOSTNAME "MQTT_Bridge"
 
@@ -29,7 +29,7 @@ void mqttCallback(char* topic, byte* payload, unsigned int length);
 IPAddress getlocalIP();
 
 IPAddress myIP(0,0,0,0);
-IPAddress mqttBroker(192, 168, 0, 10);
+IPAddress mqttBroker(172, 20, 10, 5);
 
 painlessMesh  mesh;
 WiFiClient wifiClient;
@@ -42,7 +42,7 @@ void setup() {
 
   // Channel set to 6. Make sure to use the same channel for your mesh and for you other
   // network (STATION_SSID)
-  mesh.init( MESH_PREFIX, MESH_PASSWORD, MESH_PORT, WIFI_AP_STA, 11);
+  mesh.init( MESH_PREFIX, MESH_PASSWORD, MESH_PORT, WIFI_AP_STA, 6);
   mesh.onReceive(&receivedCallback);
 
   mesh.stationManual(STATION_SSID, STATION_PASSWORD);
