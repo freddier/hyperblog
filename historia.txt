@@ -13,5 +13,3 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
-
-Soy el Dr. Hugo Marte, tengo 32 años y estoy estudiando Data Science en Platzi.
