@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Esta es la historia de Diego Quiroga
 
 Diego tiene 22 años y nacion en colombia,
@@ -10,3 +11,20 @@ En camara parece alto pero la verdad no es tan alto
 Hos es estudiante de ingenieria biomedica 
 
 Hoy hablaremos de su vida y su obra maestra 
+=======
+Esta es la historia de Freddy Vega
+
+Freddy Vega tiene 32 años y nació en Colombia
+
+Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
+
+Experimento 1
+
+Experimento 2
+
+Master 1
+
+Master 2
+
+Mañana nos enfocaremos en su vida laboral
+>>>>>>> 0cc672ac066f4d118205aaca7da635219df00e48
