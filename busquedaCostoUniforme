@@ -1,0 +1,294 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sergiocastro85/hyperblog-1/blob/master/busquedaCostoUniforme\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "instalar libreria treelib"
+      ],
+      "metadata": {
+        "id": "SLpRe3BudqsP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install treelib"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PhZzBGK1byTk",
+        "outputId": "6807826f-702a-4c07-85e1-a453c02747bf"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting treelib\n",
+            "  Downloading treelib-1.6.1.tar.gz (24 kB)\n",
+            "Requirement already satisfied: future in /usr/local/lib/python3.7/dist-packages (from treelib) (0.16.0)\n",
+            "Building wheels for collected packages: treelib\n",
+            "  Building wheel for treelib (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "  Created wheel for treelib: filename=treelib-1.6.1-py3-none-any.whl size=18385 sha256=f6a9d4d5bec7d3e996a5b8f70c18938a94ddda3952e5ba8b8bb2d1c4ac563792\n",
+            "  Stored in directory: /root/.cache/pip/wheels/89/be/94/2c6d949ce599d1443426d83ba4dc93cd35c0f4638260930a53\n",
+            "Successfully built treelib\n",
+            "Installing collected packages: treelib\n",
+            "Successfully installed treelib-1.6.1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#importar \n",
+        "from treelib import Tree"
+      ],
+      "metadata": {
+        "id": "9Qz-vJyUdbOx"
+      },
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Instanciar un arbol\n",
+        "g=Tree()"
+      ],
+      "metadata": {
+        "id": "f1X7VLJie0TV"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "grafo={'U':{'V':2,'X':1,'W':5},\n",
+        "       'X':{'U':1,'V':2,'W':3,'Y':1},\n",
+        "       'V':{'U':2,'X':2,'W':3},\n",
+        "       'Y':{'X':1,'W':1,'Z':2},\n",
+        "       'W':{'V':3,'X':3,'Y':1,'Z':5},\n",
+        "       'Z':{'Y':2,'W':5}}"
+      ],
+      "metadata": {
+        "id": "MvEjcp4LAfuX"
+      },
+      "execution_count": 32,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pq=[]\n",
+        "visitados=[]\n",
+        "id=1\n",
+        "\n",
+        "g=Tree()\n",
+        "\n",
+        "nodo=g.create_node(tag='U',data=['U',0],identifier=id)\n",
+        "\n",
+        "pq.append(nodo)\n",
+        "\n",
+        "while len(pq) !=0:\n",
+        "  pq.sort(key=lambda X:X.data[1])\n",
+        "  nodo_actual=pq.pop(0)\n",
+        "  costo_actual=nodo_actual.data[1]\n",
+        "  if nodo_actual.tag=='Z':\n",
+        "    g.show()\n",
+        "  visitados.append(nodo_actual.tag)\n",
+        "  hijos=list(grafo[nodo_actual.tag].items())\n",
+        "  for hijo in hijos:\n",
+        "    id=id+1\n",
+        "    nodo_hijo=g.create_node(tag=hijo[0],data=list(hijo),identifier=id,parent=nodo_actual.identifier)\n",
+        "    costo_hijo=hijo[1]\n",
+        "    costo_acumulado=costo_actual+costo_hijo\n",
+        "    if hijo[0]not in visitados:\n",
+        "      lista=[nodo.tag for nodo in pq]\n",
+        "      if hijo[0] in lista:\n",
+        "        index=lista.index(hijo[0])\n",
+        "        if costo_acumulado < pq[index].data[1]:\n",
+        "          pq[index].data[1]=costo_hijo\n",
+        "      else:\n",
+        "        pq.append(nodo_hijo)\n"
+      ],
+      "metadata": {
+        "id": "1f6PZtM9CRup",
+        "outputId": "d911b89e-0130-4cb2-d564-72bf187a6dce",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "U\n",
+            "├── V\n",
+            "│   ├── U\n",
+            "│   ├── W\n",
+            "│   └── X\n",
+            "├── W\n",
+            "│   ├── V\n",
+            "│   ├── X\n",
+            "│   ├── Y\n",
+            "│   └── Z\n",
+            "└── X\n",
+            "    ├── U\n",
+            "    ├── V\n",
+            "    ├── W\n",
+            "    └── Y\n",
+            "        ├── W\n",
+            "        ├── X\n",
+            "        └── Z\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "d=g.nodes\n",
+        "for clave in d:\n",
+        "  if g.is_ancestor (d[clave].identifier, nodo_actual.identifier):\n",
+        "    print (d[clave].data)\n",
+        "print (nodo_actual.data)\n"
+      ],
+      "metadata": {
+        "id": "wRvggAXFN1yl",
+        "outputId": "02e0a18e-2b3f-4dbf-8660-3f739d86cec9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['U', 0]\n",
+            "['X', 1]\n",
+            "['Y', 1]\n",
+            "['Z', 2]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#DEFINIR FUNCION EXPANDIR NODO\n",
+        "\n",
+        "def expandirnodo(estadoactual):\n",
+        "  L=[]\n",
+        "  if estadoactual==\"A\":\n",
+        "    L=[\"B\",\"C\"]\n",
+        "  elif estadoactual==\"B\":\n",
+        "    L=[\"Z\"]\n",
+        "  elif estadoactual==\"Z\":\n",
+        "    L=[\"D\",\"F\"]\n",
+        "  elif estadoactual==\"C\":\n",
+        "    L=[\"F\",\"G\",\"H\"]\n",
+        "  elif estadoactual==\"F\":\n",
+        "    L=[\"I\"]\n",
+        "  elif estadoactual==\"G\":\n",
+        "    L=[\"J\"]\n",
+        "  elif estadoactual==\"H\":\n",
+        "    L=[\"K\"]\n",
+        "  elif estadoactual==\"K\":\n",
+        "    L=[\"L\"]\n",
+        "  return L"
+      ],
+      "metadata": {
+        "id": "F19us3rJlMuD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from typing_extensions import ParamSpec\n",
+        "#Estado inial A, estado Objetivo L\n",
+        "Q=[]\n",
+        "T=Tree()\n",
+        "V=[]\n",
+        "Q.append(\"A\")\n",
+        "V.append(\"B\")\n",
+        "T.create_node(tag=\"A\",identifier=\"A\",data=\"A\")\n",
+        "while len(Q)!=0:\n",
+        "  pos_actual=Q.pop(0)\n",
+        "  hijos=expandirnodo(pos_actual)\n",
+        "  for hijo in hijos:\n",
+        "    if hijo not in V:\n",
+        "      T.create_node(tag=hijo,identifier=hijo,parent=pos_actual,data=hijo)\n",
+        "      V.append(hijo)\n",
+        "      Q.append(hijo)\n",
+        "      if hijo==\"L\":\n",
+        "        T.show()\n",
+        "print(\"no Hay Solución\")\n",
+        "  "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W7rNbrNDjD2I",
+        "outputId": "d76f0c60-7e4f-4283-f1cb-8dbb7fa763e3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A\n",
+            "└── C\n",
+            "    ├── F\n",
+            "    │   └── I\n",
+            "    ├── G\n",
+            "    │   └── J\n",
+            "    └── H\n",
+            "        └── K\n",
+            "            └── L\n",
+            "\n",
+            "no Hay Solución\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "collapsed_sections": [],
+      "name": "Te damos la bienvenida a Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
