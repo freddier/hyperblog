@@ -14,3 +14,6 @@ body {
 .container h1 {
     font-size: 25px;
 }
+.cabecera {
+    background-color: green;
+}
