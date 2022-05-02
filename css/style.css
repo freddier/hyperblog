@@ -1,5 +1,16 @@
-html {
+body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: deeppink;
+    color: #333;
+    font-size: 16px;
+}
+.container {
+    width: 70%;
+    text-align: left;
+    padding: 1em;
+    border: 1px solid #555555;
+    margin: 0 auto;
+}
+.container h1 {
+    font-size: 25px;
 }
