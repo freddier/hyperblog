@@ -14,3 +14,18 @@ body {
 .container h1 {
     font-size: 25px;
 }
+.cabecera {
+    background-color: green;
+    font-size: 20px;
+}
+.cabecera ul {
+    list-style: none;
+}
+.cabecera ul li {
+    display: inline-block;
+    padding: 10px;
+}
+a{ 
+    color: white;
+    text-decoration: none;
+}
