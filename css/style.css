@@ -1,7 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+<<<<<<< HEAD
     color: brown;
+=======
+    color: red;
+>>>>>>> cabecera
     font-size: 16px;
 }
 .container {
