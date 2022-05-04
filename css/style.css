@@ -29,3 +29,12 @@ a{
     color: white;
     text-decoration: none;
 }
+footer {
+    background: #8d0fa9;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+}
