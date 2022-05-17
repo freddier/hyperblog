@@ -59,4 +59,7 @@ body
     padding: 0.5em;
 }
 
-
+.mare-name{
+    color: #09575f;
+    font-weight: bold;
+}
