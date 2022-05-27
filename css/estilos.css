@@ -50,6 +50,11 @@ body
     background: white;
     padding: 1em;
 }
+.n{
+   color: #37488b;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+}
 
 #footer
 {
