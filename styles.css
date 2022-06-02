@@ -1,0 +1,27 @@
+*{
+    background-color: darkslategrey;
+}
+
+#container{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 2%;
+    box-shadow: 0 0 10px black;
+}
+#container :nth-child(2){
+    font-size: 22px;
+    color: white;
+    text-decoration: underline;
+}
+
+h1{
+    color: white;
+    display: inline-block;
+}
+
+p{
+    color:bisque;
+
+}
