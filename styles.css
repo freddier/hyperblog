@@ -3,7 +3,7 @@
 }
 
 #container{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     padding: 30px;
     border: 1px solid white;
@@ -11,21 +11,30 @@
     box-shadow: 0 0 10px black;
     background-color:darkslategrey;
 }
-#container :nth-child(3){
-    font-size: 22px;
-    color: white;
-    text-decoration: underline;
-    background-color:darkslategrey;
+
+#title{
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    margin-bottom: 50px;
 }
+
 
 h1{
     color: white;
     display: inline-block;
-    background-color:darkslategrey;
+    font-weight: bold;
+
 }
 
 p{
     color:bisque;
-    background-color:darkslategrey;
+    font-family: courier;
 
+}
+
+#title :nth-child(2){
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    
 }
