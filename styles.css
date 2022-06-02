@@ -3,18 +3,14 @@
 }
 
 #container{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     padding: 30px;
     border: 1px solid white;
     border-radius: 2%;
     box-shadow: 0 0 10px black;
 }
-#container :nth-child(2){
-    font-size: 22px;
-    color: white;
-    text-decoration: underline;
-}
+
 
 h1{
     color: white;
@@ -24,4 +20,10 @@ h1{
 p{
     color:bisque;
 
+}
+
+#container :nth-child(3){
+    display: inline-block;
+    font-size: 22px;
+    color: white;
 }
