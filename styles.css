@@ -11,19 +11,29 @@
     box-shadow: 0 0 10px black;
 }
 
+#title{
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
 
 h1{
     color: white;
     display: inline-block;
+    font-weight: bold;
+
 }
 
 p{
     color:bisque;
+    font-family: courier;
 
 }
 
-#container :nth-child(3){
+#title :nth-child(2){
     display: inline-block;
     font-size: 22px;
     color: white;
+    
 }
