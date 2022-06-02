@@ -1,5 +1,5 @@
 *{
-    background-color: darkslategrey;
+    background-color: rgb(8, 43, 43);
 }
 
 #container{
@@ -9,19 +9,23 @@
     border: 1px solid white;
     border-radius: 2%;
     box-shadow: 0 0 10px black;
+    background-color:darkslategrey;
 }
-#container :nth-child(2){
+#container :nth-child(3){
     font-size: 22px;
     color: white;
     text-decoration: underline;
+    background-color:darkslategrey;
 }
 
 h1{
     color: white;
     display: inline-block;
+    background-color:darkslategrey;
 }
 
 p{
     color:bisque;
+    background-color:darkslategrey;
 
 }
