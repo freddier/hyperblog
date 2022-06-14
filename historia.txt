@@ -13,5 +13,9 @@ Master 1
 Master 2
 
 Master 3
+-------------------------
+ARRANCAMOS DE NUEVO CON APRENDER EL REBASE.
+
+Master 1
 
 Mañana nos enfocaremos en su vida laboral
