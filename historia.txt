@@ -12,4 +12,23 @@ Master 1
 
 Master 2
 
+Master 3
+-------------------------
+ARRANCAMOS DE NUEVO CON APRENDER EL REBASE.
+
+Master 1
+
+Master 2
+
 Mañana nos enfocaremos en su vida laboral
+
+Experimento 1 (segundo intento de probar REBASE)
+
+Experimento 2 (segundo intento de probar REBASE)
+
+Modificación E
+
+Modificación F
+
+Modificación G
+
