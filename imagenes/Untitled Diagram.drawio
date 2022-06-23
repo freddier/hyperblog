@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2022-06-21T23:33:07.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="kq733OTZJQ3QidqZkdIO" version="20.0.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-0" target="hCgRTBO7BKaTBUO3MMOl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-0" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="377" y="30" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-3" target="hCgRTBO7BKaTBUO3MMOl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-3" value="Valida si la Fecha Ya existe&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="337" y="330" width="154" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-6" target="hCgRTBO7BKaTBUO3MMOl-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-6" value="Usuario selecciona fecha de un calendario&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="309" y="90" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-11" target="hCgRTBO7BKaTBUO3MMOl-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-22" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCgRTBO7BKaTBUO3MMOl-14">
+          <mxGeometry x="-0.7764" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-11" target="hCgRTBO7BKaTBUO3MMOl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-20" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hCgRTBO7BKaTBUO3MMOl-19">
+          <mxGeometry x="-0.7143" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-11" value="La fecha ya existe?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="351" y="400" width="126" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-13" target="hCgRTBO7BKaTBUO3MMOl-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-13" value="Inserta Fecha en BD&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="535" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-18" target="hCgRTBO7BKaTBUO3MMOl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-18" value="Ingresa una fecha distinta" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="519" y="380" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-23" value="Devuelve Mensaje de inserción correcta" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="660" width="166" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-31" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-29" target="hCgRTBO7BKaTBUO3MMOl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-33" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-29" target="hCgRTBO7BKaTBUO3MMOl-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-29" value="Se inserto correctamente la fecha?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="515" width="126" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-32" target="hCgRTBO7BKaTBUO3MMOl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-32" value="Genera Ventana emergente de que no se pudo insertar" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="527.5" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-34" value="Regiistro de errores y excepciones" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="605" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-39" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="386" y="730" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-43" target="hCgRTBO7BKaTBUO3MMOl-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-43" value="Ventana Emergente de confirmación&lt;br&gt;Desea insertar la fecha selecionada?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="293" y="160" width="241" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-48" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-50" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hCgRTBO7BKaTBUO3MMOl-46" target="hCgRTBO7BKaTBUO3MMOl-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-46" value="Selecciona Botón Aceptar&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="317" y="230" width="194" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hCgRTBO7BKaTBUO3MMOl-49" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="240" width="74" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
