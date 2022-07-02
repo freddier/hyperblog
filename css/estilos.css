@@ -1,5 +1,13 @@
 body
 {
+<<<<<<< HEAD
+   color: #333;
+   text-align: center;
+   font-family: "Arial";
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+=======
     background: #1e1f24;
     color: #333;
     text-align: center;
@@ -30,17 +38,28 @@ body
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+>>>>>>> 0cc672ac066f4d118205aaca7da635219df00e48
 }
 
 #container
 {
     width: 70%;
+<<<<<<< HEAD
+    padding: 1cm;
+=======
     padding: 0;
+>>>>>>> 0cc672ac066f4d118205aaca7da635219df00e48
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
+container h1
+{
+    font-size: 20px;
+}
+=======
 #container h1
 {
     font-size: 20px;
@@ -60,3 +79,4 @@ body
 }
 
 
+>>>>>>> 0cc672ac066f4d118205aaca7da635219df00e48
