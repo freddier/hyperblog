@@ -37,4 +37,12 @@ margin:0 auto
 }
 #post
 {background:#fff;padding:1em
+#container h1{
+    font-size:30px
+}
+#footer{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5 rem;
 }
