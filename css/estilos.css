@@ -51,6 +51,13 @@ body
     padding: 1em;
 }
 
+#post #logo_platzi
+{
+    width: 500px;
+    display:block;
+    margin:auto;
+}
+
 #footer
 {
     background: #37488b;
