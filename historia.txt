@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+Esta es la historia de Jefferson Pacheco
+
+Tengo 25 años. 
+
+Amo leer, escribir, actuar y programar.
+
+Añadí nueva linea
+=======
 Esta es la historia de Freddy Vega
 
 Freddy Vega tiene 32 años y nació en Colombia
@@ -13,3 +22,4 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+>>>>>>> 5b62e3a91c2df7cb30e9dcbb94d33f2ce4981aba
