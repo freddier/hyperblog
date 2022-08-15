@@ -1,7 +1,4 @@
-Esta es la historia de Freddy Vega
-
-Freddy Vega tiene 32 años y nació en Colombia
-
-Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
-
-Mañana nos enfocaremos en su vida laboral
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1626    1271    1626      15660  pty0      197609 13:28:03 /usr/bin/ps
+     1271    1270    1271        608  pty0      197609 11:47:06 /usr/bin/bash
+     1270       1    1270      16712  ?         197609 11:47:06 /usr/bin/mintty
