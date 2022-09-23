@@ -1,7 +1,7 @@
 # Hyperblog 💚
 Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git-github/ " curso de Git y Github") de [Platzi](https://platzi.com/ "Platzi")
-> El curso de Git y Github de Platzi es lo que me hacía falta para triplicar mi salario y lanzarme a la industria del tejido de lana sintética con Machine Learning
-> - niñita
+> Este es una edicion de un archivo readme.md con la finalidad de aprender a crear y editar estos archivos.
+> - Kevin Alexis Rodriguez Rincon
 
 ## En este curso vemos de todo
 * Todos los comandos de Git
@@ -13,4 +13,4 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 * Incluye ejemplos en Windows, Linux y Mac
 * Disponible para todas las edades
 
-Y como un amable recordatorio: **Este readme.md es un chiste**.  Diseñado para el ejemplo. Si llegas acá NO TE LO TOMES EN SERIO y mejor ve [**a ver el curso**](https://platzi.com/cursos/git-github/ "a ver el curso").
+A continuacion pondre una imagen del bicho [**SIUUUU**](https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt52a68c89c3f5b6f5/6129279348a2b61a6c904209/332c5e574af584fc52172a7dea79149e438a7f92.jpg?quality=80&format=pjpg&auto=webp&width=620 "SIUUUU")
