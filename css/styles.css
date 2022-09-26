@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: darkslategray;
+    background-color: #122e1d;
     color: cornsilk;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
@@ -8,15 +8,32 @@ body {
     padding: 0;
 }
 
+#header {
+    height: 20px;
+    box-shadow: 0px 2px 50px 0px rgba(0,0,0,0.75);
+    color:black;
+    margin: 0;
+    padding: 0.5em;
+
+    font-weight: bold;
+    background: radial-gradient(cornsilk, transparent);
+}
+
 #container {
     width: 70%;
-    padding: 1em;
+    padding: 3px;
     text-align: center;
-    border: 1px solid #DDD;
+    border: 25px solid #DDD;
     margin: 0 auto;
+
+    background: radial-gradient(black, transparent);
 }
 
 #container h1 {
     font-size: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+}
+
+#post {
+    padding: 1em;
 }
