@@ -1,5 +1,4 @@
 body {
-    text-align: center;
     background-color: #122e1d;
     color: cornsilk;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -36,4 +35,13 @@ body {
 
 #post {
     padding: 1em;
+}
+
+#footer {
+    text-align: center;
+    width: 50%;
+    padding: 4px;
+    margin: 0 auto;
+    background: radial-gradient(black, transparent);
+    color: cornsilk;
 }
