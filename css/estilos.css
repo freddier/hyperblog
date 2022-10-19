@@ -51,6 +51,10 @@ body
     padding: 1em;
 }
 
+#surf{
+    max-width: 480px
+}
+
 #footer
 {
     background: #37488b;
