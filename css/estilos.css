@@ -1,6 +1,6 @@
 body
 {
-    background: #1e1f24;
+    background: #1c3643;
     color: #333;
     text-align: center;
     font-family: Arial;
@@ -11,7 +11,7 @@ body
 
 #cabecera
 {
-    background: #37488b;
+    background: #121f3d;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
@@ -58,5 +58,13 @@ body
     text-align: center;
     padding: 0.5em;
 }
-
+#btn-like{
+    color:#03091e;
+    background-color: #98ca3f;
+    font-weight: bold;
+    padding:0.05em;
+    border-radius:0.5em;
+    width: 20vw;
+    text-align: center;
+}
 
