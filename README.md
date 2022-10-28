@@ -1,16 +1,7 @@
-# Hyperblog 💚
-Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git-github/ " curso de Git y Github") de [Platzi](https://platzi.com/ "Platzi")
-> El curso de Git y Github de Platzi es lo que me hacía falta para triplicar mi salario y lanzarme a la industria del tejido de lana sintética con Machine Learning
-> - niñita
+href="https://www.buymeacoffee.com/jonatanserna"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="jonatanserna" /></a><a href="https://ko-fi.com/jonatanserna"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="jonatanserna" /></a></p><br><br>
 
-## En este curso vemos de todo
-* Todos los comandos de Git
-* El flujo de trabajo en Github
-* El verdadero amor por las buenas prácticas
-* Trucos muy locos del profesor
-* Las personalidades múltiples de Freddy
-* Creado por el increíble Platzi Team
-* Incluye ejemplos en Windows, Linux y Mac
-* Disponible para todas las edades
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=snowdenrise&show_icons=true&locale=en&layout=compact" alt="snowdenrise" /></p>
 
-Y como un amable recordatorio: **Este readme.md es un chiste**.  Diseñado para el ejemplo. Si llegas acá NO TE LO TOMES EN SERIO y mejor ve [**a ver el curso**](https://platzi.com/cursos/git-github/ "a ver el curso").
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=snowdenrise&show_icons=true&locale=en" alt="snowdenrise" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=snowdenrise&" alt="snowdenrise" /></p>
