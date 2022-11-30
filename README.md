@@ -14,3 +14,8 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 * Disponible para todas las edades
 
 Y como un amable recordatorio: **Este readme.md es un chiste**.  Diseñado para el ejemplo. Si llegas acá NO TE LO TOMES EN SERIO y mejor ve [**a ver el curso**](https://platzi.com/cursos/git-github/ "a ver el curso").
+
+Usa emblemas (badges) que informen a otros desarrolladores sobre el estado de tu desarrollo (actualización, versión, licencia). Puedes encontrar o crear badges en https://shields.io/.
+Puedes colocar atajos (follow, fork, issue, download) en tu repositorio que inviten a la acción. Aquí algunos atajos https://buttons.github.io/.
+Los repositorios más votados son aquellos que tienen un manual de contribución y un código de conducta. Ejemplos en inglés: CONTRIBUTING.md - CODE_OF_CONDUCT.md.
+Puedes agregar emojis en tu archivo README y en tus commits. Algunos truco para los mensajes en tus commits.
