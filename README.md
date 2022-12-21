@@ -14,3 +14,8 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 * Disponible para todas las edades
 
 Y como un amable recordatorio: **Este readme.md es un chiste**.  Diseñado para el ejemplo. Si llegas acá NO TE LO TOMES EN SERIO y mejor ve [**a ver el curso**](https://platzi.com/cursos/git-github/ "a ver el curso").
+
+---
+- este fue un ejemplo de como hacer un fork y pull requests agregando mi nombre a este proyecto.
+
+- visite mi sitio aqui https://duvan321.github.io/hyperblog/blogpost.html
