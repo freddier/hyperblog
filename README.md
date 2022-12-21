@@ -18,4 +18,6 @@ Y como un amable recordatorio: **Este readme.md es un chiste**.  Diseñado para 
 ---
 - este fue un ejemplo de como hacer un fork y pull requests agregando mi nombre a este proyecto.
 
+- puedes ver mi nombre agregado en el ultimo parrafo.
+
 - visite mi sitio aqui https://duvan321.github.io/hyperblog/blogpost.html
