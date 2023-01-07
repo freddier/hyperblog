@@ -1,3 +1,20 @@
+<<<<<<< HEAD
 Este es la historia de Marco Villanueva
 Esta es la historia de otro usuario
+=======
+Esta es la historia de Freddy Vega
+
+Freddy Vega tiene 32 años y nació en Colombia
+
+Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
+
+Experimento 1
+
+Experimento 2
+
+Master 1
+
+Master 2
+
+>>>>>>> 0cc672ac066f4d118205aaca7da635219df00e48
 Mañana nos enfocaremos en su vida laboral
