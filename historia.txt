@@ -12,4 +12,6 @@ Master 1
 
 Master 2
 
+Espero te este yendo muy bien en el curso de Git y Github
+
 Mañana nos enfocaremos en su vida laboral
