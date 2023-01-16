@@ -1,3 +1,35 @@
+@keyframes colorrainbow{
+    0%{
+        color: white;
+    }
+    10%{
+        color: orange;
+    }
+    20%{
+        color: yellow;
+    }
+    30%{
+        color: green;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: indigo;
+    }
+    70%{
+        color: violet;
+    }
+    80%{
+        color: pink;
+    }
+    90%{
+        color: red;
+    }
+    100%{
+        color: white;
+    }
+}
 body
 {
     background: #1e1f24;
@@ -60,3 +92,12 @@ body
 }
 
 
+.image{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-ttl{
+    color: white;
+    animation: colorrainbow 10s infinite;
+}
