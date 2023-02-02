@@ -9,6 +9,10 @@ body
     padding: 0;
 }
 
+.img-cont{
+    text-align: center;
+}
+
 #cabecera
 {
     background: #37488b;
