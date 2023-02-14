@@ -11,3 +11,6 @@ Un blog increible para platzi  by kevin rodriguez
 * Trucos muy locos de parkour.
 
 Y como recordatio este readme es un chiste para el curso de Git y GitHub ya que solo estoy escribiendo texto porq escribir y poder tener contenido dentro de mi readme jeje saludo **SIUUUUUUUUUUUUU**
+
+hecho por el increible hombre aranha
+siu
