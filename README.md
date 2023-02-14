@@ -14,3 +14,5 @@ Y como recordatio este readme es un chiste para el curso de Git y GitHub ya que 
 
 hecho por el increible hombre aranha
 siu
+
+Incluye tutorial sobre como lanzar telaranhas
