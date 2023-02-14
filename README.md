@@ -16,3 +16,5 @@ hecho por el increible hombre aranha
 siu
 
 Incluye tutorial sobre como lanzar telaranhas
+
+disponible para todos los generos
