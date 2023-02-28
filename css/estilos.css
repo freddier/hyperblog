@@ -10,7 +10,10 @@ body
 }
 
 #cabecera
+    
 {
+    display: flex;
+    flex-direction: wrap;
     background: #37488b;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
@@ -19,11 +22,16 @@ body
     padding: 0.5em;
 }
 
-#cabecera #logo
-{
-    width: 20px;
-    vertical-align: middle;
+
+#img {
+  width: 20px;
+  margin-bottom: 2px;
+  margin: 0 auto;
+  padding-right: 5px;
+  vertical-align: middle;
 }
+
+
 
 #cabecera #tagline
 {
@@ -58,5 +66,4 @@ body
     text-align: center;
     padding: 0.5em;
 }
-
 
