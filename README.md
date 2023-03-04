@@ -9,4 +9,4 @@ En este curso vemos todo:
 - Trucos muy locos del profesor
 - Las personalidades multiples de Freddy
 
-Y como hamable recordario ** Este Readme Es un Chiste ** . Visitanos [a nuestra pagina web](https://www.thevirtualape.com/ "a nuestra pagina web")
+Y como hamable recordario **Este Readme Es un Chiste** . Visitanos [a nuestra pagina web](https://www.thevirtualape.com/ "a nuestra pagina web")
