@@ -8,6 +8,10 @@ body
     margin: 0;
     padding: 0;
 }
+#logo {
+    width: 100px;
+    height: 50px;
+}
 
 header
 {
