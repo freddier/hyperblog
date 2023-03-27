@@ -15,7 +15,7 @@ body
 
 header
 {
-    background: #37488b;
+    background: #d19002f6;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
@@ -45,13 +45,13 @@ header #tagline
 }
 #post
 {
-    background: white;
+    background: khaki;
     padding: 1em;
 }
 
 footer
 {
-    background: #37488b;
+    background: #d19002f6;
     color: white;
     text-align: center;
     padding: 0.5em;
