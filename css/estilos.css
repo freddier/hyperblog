@@ -59,6 +59,7 @@ footer
 #imagen{
     display: flex;
     margin: auto;
+    border: 1px solid #d19002f6;
 }
 
 
