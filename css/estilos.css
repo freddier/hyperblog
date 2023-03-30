@@ -1,17 +1,21 @@
 body
 {
-    background: #1e1f24;
+    background: black;
     color: #333;
     text-align: center;
     font-family: Arial;
-    font-size: 16px;
+    font-size: 19px;
     margin: 0;
     padding: 0;
 }
+#logo {
+    width: 50px;
+    height: 37px;
+}
 
-#cabecera
+header
 {
-    background: #37488b;
+    background: #d19002f6;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
@@ -19,13 +23,7 @@ body
     padding: 0.5em;
 }
 
-#cabecera #logo
-{
-    width: 20px;
-    vertical-align: middle;
-}
-
-#cabecera #tagline
+header #tagline
 {
     padding: 0 0 0 1em;
     font-weight: normal;
@@ -34,7 +32,7 @@ body
 
 #container
 {
-    width: 70%;
+    width: 80%;
     padding: 0;
     text-align: left;
     border: 1px solid #DDD;
@@ -43,20 +41,26 @@ body
 
 #container h1
 {
-    font-size: 20px;
+    font-size: 30px;
 }
 #post
 {
-    background: white;
+    background: khaki;
     padding: 1em;
 }
 
-#footer
+footer
 {
-    background: #37488b;
-    color: white;
+    background: #d19002f6;
+    color: honeydew;
     text-align: center;
     padding: 0.5em;
+}
+#imagen{
+    display: flex;
+    margin: auto;
+    border: 1px solid #d19002f6;
+    border-radius: 20px;
 }
 
 
