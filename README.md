@@ -4,7 +4,7 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 > - niñita
 
 ## En este curso vemos de todo
-*  Red
+* Red
 * Todos los comandos de Git
 * El flujo de trabajo en Github
 *  Green
