@@ -1,5 +1,9 @@
 Esta es la historia de Freddy Vega
+<<<<<<< HEAD
 Ahora cambiamos todo solo un mucho con sopa
+=======
+Ahora esta linea esta toda cambiada en git.
+>>>>>>> refs/remotes/origin/master
 Freddy Vega tiene 32 años y nació en Colombia
 
 Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
