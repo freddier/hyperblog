@@ -1,0 +1,747 @@
+/*FUENTES PERSONALIZADAS*/
+@font-face{
+    font-family: "BebasNeue";
+    src: url('./fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "icons";
+    src: url("/fonts/websymbols-regular-webfont.svg") format('svg'),
+        url("/fonts/websymbols-regular-webfont.eot");
+    src: url("/fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("/fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+/*FIN FUENTES PERSONALIZADAS*/
+
+/*GENERALES*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.icon{
+    font-family: "icons";
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#nay{
+    width: 100%;
+    overflow: hidden;
+}
+
+#nay #text{
+    width: 98.9%;
+    height: 97%;
+    background: #80808059;
+    margin: 0px auto;
+    position: relative;
+    z-index: 2;
+}
+
+#nay .block{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0.5% 0% 0.5% 0%;
+}
+.glow::before, .glow::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+    background-size: 400%;
+    width: calc(100% + 0px);
+    height: calc(100% + 0px);
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400%;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.glow::after{
+    visibility: hidden;
+}
+.glow::before{
+    visibility: hidden;
+}
+
+#nay .checknay{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 491px;
+    top: 170px;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#nay .spanay{
+    position: absolute;
+    width: 82px;
+    height: 48px;
+    right: 470px;
+    top: 167px;
+    z-index: 1;
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+#body #nay .checknay:checked ~ .spanay{
+    background: linear-gradient(153deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+    background-size: 238%;
+}
+
+.spanay::before {
+    content: '';
+    position: absolute;
+    top: 11%;
+    left: 6px;
+    overflow: hidden;
+    background: linear-gradient(153deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+    background-size: 238%;
+    width: 47%;
+    height: 79%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#nay .checknay:checked ~ .spanay::before{
+    transform: translateX(-130px);
+}
+
+.spanay::after{
+    content: '';
+    position: absolute;
+    top: 11%;
+    right: 7px;
+    background: white;
+    width: 47%;
+    height: 79%;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(50px);
+}
+#nay .checknay:checked ~ .spanay::after{
+    transform: translateX(0px);
+}
+
+
+
+#nay .checknay:checked ~ .glow::before{
+    visibility: visible;
+}
+#nay .checknay:checked ~ .glow::after{
+    visibility: visible;
+}
+
+#check {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 693px;
+    top: 170px;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#nav #check:checked ~ .spancheck{
+    background: black;
+}
+
+#check:checked ~ #header{
+    background-color: #45ada8c9;
+}
+
+#check:checked ~ #header #logo{
+    background: #0dafa7;
+}
+
+#check:checked ~ #header #menu ul li a{
+    color: #5df8ffcc;
+}
+
+#nay{
+    background: black;
+}
+
+#check:checked ~ #nay{
+    background: white;
+}
+
+#check:checked ~ .spancheck{
+    background: black;
+}
+
+#check:checked ~ #nay #home #homeinfo h4{
+    color: #1ba5b3cc;
+}
+
+#check:checked ~ #nay #home #homeinfo h1{
+    color: #df7b14;
+}
+
+#check:checked ~ #nay #about{
+    background-color: #cc5b31;
+}
+
+#check:checked ~ #nay #about h1{
+    color: #ebf7ab;
+}
+
+#check:checked ~ #nay #about p{
+    color: #ffc46c;
+}
+
+#check:checked ~ #nay #hob h1{
+    color: #f56600cc;
+}
+
+#check:checked ~ #nay .hobcard{
+    background-color: #0dafa7;
+}
+
+#check:checked ~ #nay .hobcard i{
+    color: #dbaa60;
+}
+
+#check:checked ~ #nay .hobcard .category{
+    color: #5bf8ffcc;
+}
+
+#check:checked ~ #nay .hobcard .description{
+    color: #d7fdffcc;
+}
+
+#check:checked ~ #nay #gal{
+    background-color: #cc5b31;
+}
+
+#check:checked ~ #nay #galerys h1{
+    color: #f1d9ae;
+}
+
+#check:checked ~ #footer{
+    background-color: #3efde7cc;
+}
+#check:checked ~ #footer .footcont{
+    color: #3e2a04;
+}
+
+#nay #text{
+    background: black;
+}
+
+#check:checked ~ #nay #text{
+    background: white;
+}
+
+.spancheck {
+    position: absolute;
+    width: 82px;
+    height: 48px;
+    right: 672px;
+    top: 167px;
+    z-index: 1;
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+
+.spancheck::before {
+    content: '';
+    position: absolute;
+    top: 11%;
+    left: 6px;
+    background: black;
+    width: 47%;
+    height: 79%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#check:checked ~ .spancheck::before{
+    transform: translateX(-130px);
+}
+
+.spancheck::after{
+    content: '';
+    position: absolute;
+    top: 11%;
+    right: 7px;
+    background: white;
+    width: 47%;
+    height: 79%;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(50px);
+}
+
+#check:checked ~ .spancheck::after{
+    transform: translateX(0px);
+}
+
+
+/*FIN GENERALES*/
+
+/*CABECERA*/
+#header{
+    width: 100%;
+    height: 244px;
+    background-color: rgba(36, 34, 35, 0.884);
+    color: #eee;
+    font-family: "BebasNeue";
+}
+
+/*LOGO*/
+#logo {
+    float: left;
+    width: 300px;
+    height: 87px;
+    background: #444;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 68px;
+    margin-left: 405px;
+    padding-top: 87px;
+    transition: all 400ms;
+}
+
+#logo:hover{
+    background: #f9004d;
+
+}
+#logo:hover h3{
+    color: black;
+}
+
+
+#logo h3 {
+    font-size: 46px;
+    display: block;
+    float: right;
+    margin-top: -65px;
+    margin-right: 34px;
+}
+
+#logo .icon{
+    display: block;
+    float: left;
+    font-size: 24px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+/*FIN LOGO*/
+
+/*MENU*/
+#menu {
+    float: right;
+    height: 70px;
+    margin-right: 157px;
+    background: transparent;
+}
+#menu ul li {
+    font-size: 45px;
+    display: inline-block;
+    margin: 28px 34px 0px 38px;
+    letter-spacing: 1px;
+    line-height: 110px;
+}
+
+
+#menu ul li a{
+    display: block;
+    color: #fcfc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 400ms;
+}
+
+#menu ul li a:hover{
+    color: #af3131;
+    transform: scale(1.2, 1.2);
+}
+
+#menucheck{
+    display: none;
+}
+
+/*FIN MENU*/
+
+
+
+/*FIN CABECERA*/
+
+/*INICIO*/
+#home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 100%;
+    height: 1006px;
+}
+
+#homeinfo {
+    width: 626px;
+    height: 40%;
+    margin-top: -110px;
+    margin-left: 189px;
+    color: white;
+}
+
+#about h1 {
+    font-size: 91px;
+    margin-bottom: 38px;
+}
+#homeinfo h4 {
+    font-size: 45px;
+    margin-top: 248px;
+    padding-bottom: 1px;
+    color: #fcfc;
+}
+#homeinfo h1 {
+    font-size: 52px;
+    padding-bottom: 12px;
+    color: #f9004d;
+}
+#homeinfo button {
+    border-radius: 30px;
+    font-size: 29px;
+    width: 190px;
+    margin-left: 52px;
+    background: #444;
+}
+#homeinfo button a{
+    text-decoration: none;
+    color: white;
+}
+
+#homeinfo button:last-child {
+    margin-left: 31px;
+}
+
+#homeimg {
+    border: 1px solid white;
+    border-radius: 54px;
+    background-color: white;
+    width: 36%;
+    max-width: 1706px;
+    height: 26vw;
+    max-height: 1787px;
+}
+
+#homeimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 54px;
+}
+/*FIN INICIO*/
+
+/*ABOUT*/
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+    background: rgb(25, 25, 25);
+    color: white;
+}
+
+#about .aboutimg {
+    width: 37%;
+    max-width: 2001px;
+    height: 28vw;
+    max-height: 2000px;
+    margin-left: 64px;
+    border-radius: 115px;
+    padding-left: 0px;
+    background-color: white;
+}
+
+#about .aboutimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 115px;
+}
+
+#about .aboutext{
+    width: 40%;
+}
+
+#about h1{
+    font-size: 110px;
+    margin-bottom: 77px;
+    color: #f9004d;
+}
+
+#about p{
+    font-size: 77px;
+    color: #fcfc;
+}
+/*FIN ABOUT*/
+
+/*HOBBYS*/
+#hob {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1131px;
+}
+
+#hob h1 {
+    text-align: center;
+    font-size: 81px;
+    padding-top: 30px;
+    padding-bottom: 104px;
+    color: #af3131;
+}
+
+#hobcards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    height: 748px;
+}
+
+.hobcard {
+    display: inline-block;
+    width: 20vw;
+    height: 834px;
+    background-color: #191919;
+    border-radius: 151px;
+    overflow-y: scroll;
+}
+
+.hobcard:hover{
+    background: #f9004d;
+    transform: scale(1.1, 1.1);
+}
+
+.hobcard:hover i{
+    color: white;
+}
+
+.hobcard:hover .description{
+color: #191919
+}
+
+.hobcard:hover .category{
+    color: #444
+}
+
+
+.hobcard i {
+    font-size: 149px;
+    padding-top: 39px;
+    color: gray;
+}
+
+.hobcard .icont{
+    display: flex;
+    justify-content: center;
+}
+
+.hobcard .category {
+    text-align: center;
+    font-size: 77px;
+    padding-top: 21px;
+    color: #f9004d;
+}
+
+
+.hobcard .description {
+    text-align: center;
+    font-size: 42px;
+    padding-top: 49px;
+    padding-right: 47px;
+    padding-left: 65px;
+    color: #fcfc;
+}
+/*FIN HOBBYS*/
+
+/*GALLERY*/
+#gal{
+    display: flex;
+    justify-content: center;
+    background: rgba(36, 34, 35, 0.884);
+}
+
+#galerys {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 1852px;
+}
+
+#galerys h1 {
+    text-align: center;
+    font-size: 81px;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    color: #af3131;
+}
+
+#galery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 1668px;
+}
+
+.galeryimg {
+    display: inline-block;
+    width: 28vw;
+    max-width: 758px;
+    height: 32vw;
+    max-height: 696px;
+    background-color: #fff;
+    border-radius: 151px;
+}
+
+.galeryimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 151px;
+
+}
+
+
+.galerylightbox{
+    display: none;
+}
+
+.galerylightbox:target{
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.galerylightbox h3{
+    color: #fff;
+    font-size: 81px;
+    text-align: center;
+    margin: 45px 0px;
+}
+
+.galboximage{
+    width: 100%;
+    height: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galboximage a{
+    color: #fff;
+    font-size: 111px;
+    padding: 0px 11px 0px 11px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.image a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.galboximage img{
+    width: 1303px;
+    height: 759px;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 90px;
+    height: 79px;
+    margin: -15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 68px;
+}
+
+
+
+
+/*FIN GALLERY*/
+
+/*FOOTER*/
+#footer {
+    width: 100%;
+    height: 186px;
+    font-family: "BebasNeue";
+    background-color: rgb(0 0 0);
+}
+
+#footer .footcont{
+    display: flex;
+    justify-content: center;
+
+    line-height: 183px;
+    font-size: 60px;
+    color: #ccc;
+}
+
+.footcont h4{
+    padding-right: 37px;
+}
+
+.footcont p{
+    padding-right: 20px;
+}
+
+.footcont p a{
+    text-decoration: none;
+}
+
+/*FIN FOOTER*/

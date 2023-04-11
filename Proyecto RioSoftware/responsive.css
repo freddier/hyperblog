@@ -1,0 +1,674 @@
+@media(max-width: 2011px){
+    #check {
+        width: 33px;
+        right: 423px;
+        top: 98px;
+    }
+    .spancheck {
+        width: 77px;
+        height: 41px;
+        right: 402px;
+        top: 98px;
+        z-index: 1;
+        border-radius: 22px;
+    }
+
+    #header {
+        height: 151px;
+    }
+    
+    #logo{
+        width: 237px;
+        height: 59px;
+        margin-top: 38px;
+        padding-top: 55px;
+        margin-left: 171px;
+    }
+    #logo h3{
+        font-size: 33px;
+        margin-top: -44px;
+    }
+    #menu {
+        margin-right: 82px;
+    }
+
+    #menu ul li{
+        font-size: 31px;
+        line-height: 71px;
+        margin: 31px 31px 0px -1px;
+    }
+
+    #nay .checknay {
+        width: 33px;
+        right: 274px;
+        top: 98px;
+    }
+
+    #nay .spanay{
+        width: 77px;
+        height: 41px;
+        right: 252px;
+        top: 98px;
+        z-index: 1;
+        border-radius: 22px;
+    }
+
+    #home {
+        height: 693px;
+    }
+
+    #homeinfo {
+        width: 577px;
+        height: 40%;
+        margin-top: -215px;
+        margin-left: 32px;
+        color: white;
+    }
+    #homeinfo h4 {
+        font-size: 36px;
+    }
+    #homeinfo h1 {
+        font-size: 45px;
+    }
+
+    #homeimg {
+        width: 43%;
+        max-width: 726px;
+        height: 36vw;
+        max-height: 568px;
+    }
+
+    #homeinfo button {
+        border-radius: 246px;
+        font-size: 24px;
+        width: 163px;
+        margin-left: 44px;
+    }
+
+    #about {
+        height: 761px;
+    }
+
+    #about .aboutimg {
+        width: 44%;
+        max-width: 747px;
+        height: 40vw;
+        max-height: 627px;
+        margin-left: 9px;
+    }
+
+    #about .aboutext {
+        width: 35%;
+    }
+    #about h1 {
+        font-size: 59px;
+        margin-bottom: 38px;
+    }
+    #about p {
+        font-size: 45px;
+    }
+
+    #hob {
+        height: 695px;
+    }
+    #hob h1 {
+        font-size: 42px;
+        padding-top: 20px;
+        padding-bottom: 34px;
+    }
+
+    #hobcards {
+        height: 543px;
+    }
+    .hobcard {
+        width: 26vw;
+        height: 558px;
+        border-radius: 33px;
+    }
+    .hobcard i{
+        font-size: 108px;
+        padding-top: 12px;
+    }
+    .hobcard .category {
+        font-size: 51px;
+        padding-top: 11px;
+    }
+    .hobcard .description {
+        font-size: 37px;
+        padding-top: 18px;
+        padding-right: 32px;
+        padding-left: 35px;
+    }
+
+    #galerys {
+        width: 66%;
+        height: 730px;
+    }
+
+    #galerys h1 {
+        font-size: 53px;
+        padding-top: 8px;
+        padding-bottom: 2px;
+    }
+
+    #galery {
+        height: 624px;
+    }
+
+    .galeryimg {
+        width: 27vw;
+        max-width: 336px;
+        height: 35vw;
+        max-height: 279px;
+        border-radius: 89px;
+    }
+
+    .galeryimg img{
+        border-radius: 89px;
+    }
+
+    .galboximage img {
+        width: 986px;
+        height: 469px;
+    }
+
+    .cerrar{
+        margin: 95px auto;
+    }
+
+
+    #footer {
+        height: 85px;
+    }
+    #footer .footcont {
+        line-height: 82px;
+        font-size: 34px;
+    }
+
+}
+
+@media(max-width: 1700px){
+    #galerys {
+        width: 78%;
+    }
+}
+
+@media(max-width: 1400px){
+    #galerys {
+        width: 89%;
+    }
+}
+
+@media(max-width: 1201px){
+    #check {
+        width: 33px;
+        right: 200px;
+        top: 22px;
+    }
+
+    .spancheck {
+        width: 77px;
+        height: 41px;
+        right: 178px;
+        top: 22px;
+    }
+
+    #header {
+        height: 83px;
+    }
+   
+    #logo{
+        float: none;
+        clear: both;
+        margin: 0px auto;
+   }
+
+   #menu {
+        margin-right: 0px;
+    }
+
+   #menu ul li{
+        font-size: 25px;
+        line-height: 58px;
+        margin: 38px -5px 0px -1px;
+   }
+
+   #check:checked ~ #header #menu .menuspam{
+    background: #5df8ffcc;
+    }
+   
+    #menul {
+        position: absolute;
+        float: none;
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 28%;
+        height: 1000px;
+        top: 84px;
+        left: 0px;
+        background: #666666;
+        z-index: 3;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    }
+    #check:checked ~ #header #menu #menul{
+        background: #0090a7;
+    }
+    #menucheck {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        width: 58px;
+        height: 37px;
+        top: 33px;
+        left: 117px;
+        z-index: 2;
+        opacity: 0;
+    }
+
+    #mepancont {
+        position: absolute;
+        top: 38px;
+        left: 126px;
+    }
+    
+    #mepancont .menuspam {
+        display: block;
+        width: 41px;
+        height: 4px;
+        margin-bottom: 8px;
+        position: relative;
+        background: #af3131;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 10px -2px;
+    }
+    #mepancont .menuspam:nth-child(2){
+        transform-origin: 7% 9%;
+    }
+    #mepancont .menuspam:nth-child(3){
+        transform-origin: -6% 9%;
+    }
+
+    #menucheck:checked ~ #menul{
+        transform: none;
+    }
+    #menucheck:checked ~ #mepancont .menuspam {
+        opacity: 1;
+        transform: rotate(-44deg) translate(0px, 7px);
+        background: #af3131;
+      }
+      #menucheck:checked ~ #mepancont .menuspam:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+      }
+      #menucheck:checked ~ #mepancont .menuspam:nth-last-child(2) {
+        transform: rotate(41deg) translate(-2px, -12px);
+      }
+
+      #nay .checknay {
+        width: 33px;
+        right: 63px;
+        top: 22px;
+      }
+
+      #nay .spanay {
+        width: 77px;
+        height: 41px;
+        right: 41px;
+        top: 22px;
+    }
+
+      #home {
+        height: 464px;
+        }
+
+      #homeinfo {
+        width: 447px;
+        height: 23%;
+        margin-top: -424px;
+    }
+
+      #homeinfo h4 {
+        font-size: 24px;
+        padding-bottom: 2px;
+      }
+      #homeinfo h1 {
+        font-size: 32px;
+      }
+      #homeinfo button {
+        border-radius: 17px;
+        font-size: 17px;
+        width: 121px;
+        margin-left: 43px;
+      }
+      #homeinfo button:last-child {
+        margin-left: 15px;
+      }
+
+      #homeimg {
+        width: 51%;
+        max-width: 460px;
+        height: 37vw;
+        max-height: 404px;
+        margin-bottom: 43px;
+        margin-right: 40px;
+    }
+
+    #about {
+        height: 557px;
+    }
+
+    #about .aboutimg {
+        width: 47%;
+        max-width: 447px;
+        height: 43vw;
+        max-height: 402px;
+        margin-left: -2px;
+    }
+
+    #about h1 {
+        font-size: 42px;
+        margin-bottom: 23px;
+    }
+    #about p {
+        font-size: 27px;
+    }
+
+    #hob {
+        height: 561px;
+    }
+    #hob h1 {
+        font-size: 37px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    #hobcards {
+        height: 492px;
+    }
+    .hobcard {
+        width: 26vw;
+        height: 405px;
+        border-radius: 33px;
+    }
+    .hobcard i {
+        color: white;
+        align-items: center;
+        font-size: 84px;
+        padding-top: 12px;
+    }
+    .hobcard .category {
+        font-size: 46px;
+        padding-top: 14px;
+    }
+    .hobcard .description {
+        font-size: 35px;
+        padding-top: 22px;
+    }
+
+    #galerys{
+        width: 90%;
+        height: 780px;
+    }
+
+    #galerys h1 {
+        font-size: 42px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+    }
+    #galery {
+        height: 691px;
+    }
+    .galeryimg {
+        width: 25vw;
+        max-width: 434px;
+        height: 36vw;
+        max-height: 313px;
+        border-radius: 89px;
+    }
+
+    #footer {
+        height: 72px;
+    }
+
+    #footer .footcont {
+        line-height: 71px;
+        font-size: 27px;
+    }
+    .footcont h4 {
+        padding-right: 16px;
+    }
+    .footcont p {
+        padding-right: 11px;
+    }
+}
+
+@media(max-width: 801px){
+    #check {
+        width: 21px;
+        right: 57%;
+        top: 47px;
+    }
+    .spancheck {
+        width: 48px;
+        height: 24px;
+        right: 55%;
+        top: 55px;
+    }
+
+    #nay .checknay {
+        width: 21px;
+        right: 40%;
+        top: 47px;
+    }
+    #nay .spanay {
+        width: 48px;
+        height: 24px;
+        right: 38%;
+        top: 55px;
+    }
+
+    #logo{
+        width: 138px;
+        height: 45px;
+        padding-top: 28px;
+    }
+    #logo h3 {
+        font-size: 23px;
+        margin-top: -18px;
+        margin-right: 10px;
+    }
+    
+    #menucheck {
+        left: 35px;
+    }
+    
+    #mepancont {
+        left: 43px;
+    }
+    
+    #home{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 4%;
+    }
+
+    #homeinfo {
+        margin-top: -431px;
+        margin-left: 23px;
+        width: 356px;
+    }
+    #homeinfo h4 {
+        font-size: 26px;
+        text-align: center;
+        margin-top: 266px;
+        padding-bottom: 1px;
+    }
+    #homeinfo h1 {
+        text-align: center;
+        font-size: 29px;
+    }
+    #homeinfo button {
+        border-radius: 11px;
+        font-size: 17px;
+        width: 120px;
+        margin-left: 50px;
+    }
+    #homeinfo button:last-child {
+        margin-left: 10px;
+    }
+
+    #homeimg{
+        margin-bottom: -118px;
+        margin-right: -4px;
+        width: 343px;
+        max-width: 404px;
+        height: 69vw;
+        max-height: 292px;
+    }
+
+    .galeryimg img{
+        border-radius: 81px;
+    }
+
+    #about {
+        flex-direction: column;
+        height: 617px;
+    }
+    #about h1 {
+        font-size: 31px;
+        margin-bottom: 15px;
+    }
+    #about p {
+        font-size: 23px;
+    }
+
+    #about .aboutimg{
+        width: 79%;
+        max-width: 417px;
+        height: 75vw;
+        max-height: 362px;
+        margin-top: -47px;
+        margin-bottom: 17px;
+        order: 2;
+    }
+    #about .aboutext {
+        text-align: center;
+        width: 55%;
+        padding-bottom: 64px;
+        order: 1;
+    }
+
+    #hob {
+        height: 974px;
+    }
+    #hobcards {
+        height: 888px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .hobcard {
+        width: 79vw;
+        height: 482px;
+        margin-bottom: 51px;
+        border-radius: 33px;
+    }
+    .hobcard i{
+        font-size: 80px;
+        padding-top: 10px;
+    }
+    .hobcard .category {
+        font-size: 41px;
+        padding-top: 13px;
+    }
+    .hobcard .description {
+        font-size: 29px;
+        padding-top: 19px;
+    }
+
+    #galerys {
+        width: 40%;
+        height: 1459px;
+    }
+
+    #galerys h1 {
+        font-size: 42px;
+        padding-top: 8px;
+        padding-bottom: 25px;
+    }
+
+    #galery {
+        height: 691px;
+    }
+
+    .galeryimg {
+        width: 70vw;
+        max-width: 413px;
+        height: 41vw;
+        max-height: 207px;
+        margin-bottom: 25px;
+        border-radius: 81px;
+    }
+
+    .galerylightbox h3 {
+        font-size: 47px;
+    }
+
+    .galboximage img {
+        width: 632px;
+        height: 383px;
+    }
+
+    .galboximage a {
+        font-size: 57px;
+    }
+
+    .cerrar {
+        width: 70px;
+        height: 62px;
+        margin: 49px auto;
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+
+
+    #footer {
+        height: 56px;
+    }
+    #footer .footcont {
+        line-height: 56px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 450px){
+    #menul {
+        width: 49%;
+        height: 500px;
+    }
+
+    #galerys {
+        width: 56%;
+        height: 1357px;
+    }
+
+    .galeryimg {
+        width: 61vw;
+        max-width: 472px;
+        height: 44vw;
+        max-height: 742px;
+        margin-bottom: 28px;
+        border-radius: 81px;
+    }
+
+    #footer .footcont {
+        font-size: 11px;
+    }
+}
+
