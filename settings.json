@@ -1,0 +1,108 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.enabled": false,
+  "files.autoGuessEncoding": true,
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\bash.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "'Cascadia Code'",
+  "editor.fontLigatures": true,
+  "editor.rulers": [79],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#48ff00a6"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 3,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "python.defaultInterpreterPath": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "debug.allowBreakpointsEverywhere": true,
+  "jupyter.debugJustMyCode": false,
+  "editor.codeActionsOnSave": {
+  
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "terminal.integrated.fastScrollSensitivity": 1,
+  "terminal.integrated.fontFamily": "'cascadia code'",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "workbench.editor.showTabs": true,
+  "window.commandCenter": true,
+  "window.menuBarVisibility": "compact",
+  "editor.tabSize": 2,
+  "workbench.statusBar.visible": false,
+  "editor.overviewRulerBorder": false,
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.guides.indentation": false,
+  "window.zoomLevel": -1,
+  "workbench.activityBar.visible": false
+}
