@@ -62,14 +62,14 @@ Ecs + chif + zz: salgo despues de poner un comentario que no puse al hacer el co
 6) git remote add origin https://github.com/DiegoPallares/test.git
 
 ### Build
-1)npm run Build: crear carpeta Build, para hacer deploy, osea subir a produccion.
-2)"homepage": "Ruta_Carpeta_Build": Creamos ruta en el archivo package.json (Se crear con el comando anterior).
-3)Ejecutamos de nuevo npm run build: verificamos que este ahora la ruta en el archivo index.html de la carpeta build.
-4)bpm i --dave-dev gh-pages: Instalar herramienta para ayduarnos a realizar el deploy. (Vemos que en package.json se crea devDependencies)
-5)Crear en el apartado de Scripts, en package.json: {"deploy": "npm run build", "predeploy": "gh-pages -d build"}.
-6)En git escribimos npm tun deploy: verificamos que al final diga published y verificar nueva rama "ph-pages" en gitHub (No debe tener errores el compilado del proyecto)
-7)Vamos a Settings/pages verificar en Branch que este selecionada la rama "ph-pages"
-8)Abrir URL para ver proyecto.
+1) npm run Build: crear carpeta Build, para hacer deploy, osea subir a produccion.
+2) "homepage": "Ruta_Carpeta_Build": Creamos ruta en el archivo package.json (Se crear con el comando anterior).
+3) Ejecutamos de nuevo npm run build: verificamos que este ahora la ruta en el archivo index.html de la carpeta build.
+4) bpm i --dave-dev gh-pages: Instalar herramienta para ayduarnos a realizar el deploy. (Vemos que en package.json se crea devDependencies)
+5) Crear en el apartado de Scripts, en package.json: {"deploy": "npm run build", "predeploy": "gh-pages -d build"}.
+6) En git escribimos npm tun deploy: verificamos que al final diga published y verificar nueva rama "ph-pages" en gitHub (No debe tener errores el compilado del proyecto)
+7) Vamos a Settings/pages verificar en Branch que este selecionada la rama "ph-pages"
+8) Abrir URL para ver proyecto.
 
 ## Linea comandos
 * ls: Lista de los archivos en la ruta en la que estoy.
