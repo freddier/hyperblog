@@ -50,6 +50,10 @@ body
     background: white;
     padding: 1em;
 }
+#candelita {
+    color: #37488b;
+    font-size: large;
+}
 
 #footer
 {
