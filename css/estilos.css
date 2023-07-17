@@ -59,4 +59,11 @@ body
     padding: 0.5em;
 }
 
+#caraballo
+{
+    color: crimson;
+    font-family: 'Consolas';
+    font-weight: bold;
+}
+
 
