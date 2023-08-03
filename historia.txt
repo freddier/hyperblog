@@ -13,3 +13,5 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+
+el dia 3 de agosto clonamos el repositorio desde platzi y le hicimos cambios
