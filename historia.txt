@@ -6,3 +6,5 @@ Naci en Republica Dominicana.
 Es un RPA developer de la empresa Claro Dominicana.
 
 En el futuro se convertira en supervisor
+
+Tiene como meta alcanzar la certifacion Master RPA Developer Automation Anywhere
