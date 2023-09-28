@@ -4,10 +4,12 @@ Esta es mi historia. Soy Melqui Melenciano Matos.
 Naci en Republica Dominicana.
 
 Le gusta ir al GYM y montar bicicleta.
-=======
+
 Es un RPA developer de la empresa Claro Dominicana.
 
 En el futuro se convertira en supervisor
 
 Tiene como meta alcanzar la certifacion Master RPA Developer Automation Anywhere
+
+Formara una empresa que le permitira obtener libertad financiera
 
