@@ -15,3 +15,5 @@ Formara una empresa que le permitira obtener libertad financiera
 
 Estoy practicando como configurar multiples colaboradores en un repositorio Github
 
+voy por el capitulo 29 del git y github, el tema es creando un fork, contribuyendo a un repositorio
+
