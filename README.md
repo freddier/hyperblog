@@ -7,4 +7,4 @@ Amazing git and github course building a simple static website
 * Best practices
 * Professional guide for troubleshooting
 
-## thanks to Platzi Team for this course
+## shout out to Platzi Team for this course
