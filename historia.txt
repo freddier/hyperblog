@@ -11,5 +11,7 @@ Experimento 2
 Master 1
 
 Master 2
+Esta es la edición al fork que hice de platzi
+Trabajo en un proyecto open source
 
 Mañana nos enfocaremos en su vida laboral
