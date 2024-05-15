@@ -14,3 +14,7 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 * Disponible para todas las edades
 
 Y como un amable recordatorio: **Este readme.md es un chiste**.  Diseñado para el ejemplo. Si llegas acá NO TE LO TOMES EN SERIO y mejor ve [**a ver el curso**](https://platzi.com/cursos/git-github/ "a ver el curso").
+
+Notas de PUCHENKV:
+Práctica de *Creando un Fork* del proyecto abierto hyperblog.
+Se esta grabando toda la información en la carpeta [hyperblogfvp] local, solo se esta haciendo anotaciones en el documento Readme.MD para poder ejecutar un commit, ya que todas las modificaciones indicadas en el video se encuentran ejecutadas.
