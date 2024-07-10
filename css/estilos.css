@@ -16,7 +16,7 @@ body
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 1.5em;
 }
 
 #cabecera #logo
@@ -49,6 +49,12 @@ body
 {
     background: white;
     padding: 1em;
+}
+#students{
+
+    display: grid;
+    justify-items: center;
+    
 }
 
 #footer
