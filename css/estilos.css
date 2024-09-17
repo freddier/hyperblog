@@ -59,4 +59,15 @@ body
     padding: 0.5em;
 }
 
+.images
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.images img
+{
+    width: 350px;
+}
