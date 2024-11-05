@@ -1,5 +1,15 @@
 Esta es la historia de Freddy Vega
 
+<<<<<<< HEAD
+Freddy Vega tiene 33 años y nació en Colombia,
+viviendo en todo el mundo
+
+Hoy hablaremos de su historia.
+
+En camara parece alto, pero en verdad, no estan alto.
+
+Hoy es el CEO de Platzi
+=======
 Freddy Vega tiene 32 años y nació en Colombia
 
 Anita Platzi es una persona que contribuye a este proyecto open source y nació en Internet
@@ -13,3 +23,4 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+>>>>>>> 0cc672ac066f4d118205aaca7da635219df00e48
