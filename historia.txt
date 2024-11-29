@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+Hola mi nombre es Alejandro Muñoz.
+
+Tengo 13 años.
+
+Me gusta el fútbol.
+
+Soy colombiano.
+
+Además estoy apendiendo Git.
+=======
 Esta es la historia de Freddy Vega
 
 Freddy Vega tiene 32 años y nació en Colombia
@@ -13,3 +24,4 @@ Master 1
 Master 2
 
 Mañana nos enfocaremos en su vida laboral
+>>>>>>> 0cc672ac066f4d118205aaca7da635219df00e48
