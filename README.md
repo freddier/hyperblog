@@ -1,5 +1,5 @@
 # Hyperblog 💚
-"Este repositorio es un fork del proyecto original de Platzi, creado para mi primer pull request como colaborador. Todos los derechos y créditos pertenecen a Platzi.
+Este repositorio es un fork del proyecto original de Platzi, creado para mi primer pull request como colaborador. Todos los derechos y créditos pertenecen a Platzi.
 Proyecto Original (https://github.com/freddier/hyperblog).
 Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git-github/ " curso de Git y Github") de [Platzi](https://platzi.com/ "Platzi")
 > El curso de Git y Github de Platzi es lo que me hacía falta para triplicar mi salario y lanzarme a la industria del tejido de lana sintética con Machine Learning
