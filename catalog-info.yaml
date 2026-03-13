@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prueba
+  description: "Este es mi servicio de prueba integrado con GitHub y Jenkins"
+  annotations:
+    # Aquí es donde ocurre la magia de la integración:
+    github.com/project-slug: tu-usuario/tu-repositorio
+    jenkins.io/job-full-name: nombre-de-tu-job-en-jenkins
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
